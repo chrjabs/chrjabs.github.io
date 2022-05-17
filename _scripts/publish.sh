@@ -12,10 +12,11 @@ if [ ! -f "_config.yml" ]; then
 fi
 
 commit_hash=$(git rev-parse HEAD)
+branch=$(git rev-parse --abbrev-ref HEAD)
 bundle exec jekyll b -d /tmp/gh-pages-publish
 git checkout gh-pages
 cp -r /tmp/gh-pages-publish/* .
 git add .
 git commit -m "publish commit ${commit_hash}"
 git push
-git checkout master
+git checkout ${branch}
