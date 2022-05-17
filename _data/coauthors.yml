@@ -1,3 +1,11 @@
-"Others":
-  - firstname: ["Them", "T."]
-    url: https://www.google.com/search?q=them+others
+"Järvisalo":
+  - firstname: ["Matti", "M."]
+    url: https://www.cs.helsinki.fi/u/mjarvisa/
+
+"Berg":
+  - firstname: ["Jeremias", "J."]
+    url: https://jeremiasberg.com/
+
+"Niskanen":
+  - firstname: ["Andreas", "A."]
+    url: https://www.cs.helsinki.fi/u/andreasn/

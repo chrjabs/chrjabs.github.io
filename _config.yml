@@ -1,35 +1,39 @@
 # Site Settings
-baseurl: "/Grape-Academic-Theme"
+baseurl: ""
 
 # Blog Setting
-blog: True
+blog: False
 
 # Page Settings
 theme_settings:
-  title: Grape Theme
+  title: Christoph Jabs
   favicon: assets/favicon.ico
 
   # Profile Settings
   profile:
-    image: assets/img/smile.png
+    image: https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700
     username: Christoph Jabs
-    description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
+    description: Master's student in computer science at the University of Helsinki.
     webpage: https://chrjabs.github.io
     experience:
-      - start: 2017-05-03
-        end: 2018-05-06
-        experience : company name, title
+      - start: 2021-05-15
+        end: current
+        experience : CoReO group, University of Helsinki
     interests:
-      - Interest 1
-      - Interest 2
+      - Boolean satisfiability and optimization
+      - Bi-objective optimization
+      - Declarative problem solving
+      - Explainable artificial intelligence
     skills: 
-      - skill: HTML5 & CSS
-        value: 85  # Percent value
+      - skill: C++
+        value: 80
+      - skill: Python (pandas, numpy, ...)
+        value: 85
         
   # Icons
   icons:
-    email:  # Full email address, e.g. "sample@google.com"
-    orcid: 
+    email: christoph.jabs@helsinki.fi
+    orcid: 0000-0003-3532-696X
     scholar: 
     publons: 
     research_gate: 
@@ -67,8 +71,8 @@ scholar:
   bibliography_template: pubstemplate
   style: apa
   locale: en
-  last_name: Me
-  first_name: [Myself, M.]
+  last_name: Jabs
+  first_name: [Christoph, C.]
   sort_by: year,month
   order: descending,ascending
 

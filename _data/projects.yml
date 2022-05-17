@@ -1,6 +1,18 @@
+- project:
+    print: True
+    modal: True
+    url: https://bitbucket.org/coreo-group/bioptsat
+    image:
+      path: 'bioptsat.png'
+      image: 'A illustration of the search progression of BiOptSat'
+    date: 09/2021 - Developing
+    title: BiOptSat
+    summary: MaxSAT-base bi-objective Boolean optimization
+    description: An algorithm and implementation to find Pareto-optimal solutions to NP-hard bi-objective combinatorial optimization problems encoded in propositional logic.
+
 - project :
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    print: True
+    modal: True
     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
     image:
       path: "portfolio.png" # path: assets/project/
@@ -30,13 +42,3 @@
             alt: "A screenshot of the tags page"
           description: <li>Responsive Layout</li> 
             <li>Tags</li> 
-
-- project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 - Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
