@@ -13,7 +13,7 @@ theme_settings:
   profile:
     image: https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700
     username: Christoph Jabs
-    description: Master's student in computer science at the University of Helsinki.
+    description: Master's student in computer science at the University of Helsinki. Researching exact bi-objective optimization in the Constraint Reasoning and Optimization research group. Originally from Germany.
     webpage: https://chrjabs.github.io
     experience:
       - start: 2021-05-15
