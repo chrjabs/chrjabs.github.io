@@ -47,6 +47,13 @@
     }
     .description{
         font-size : 0.95rem;
+        a {
+          border-bottom: 1px dashed;
+          &:hover  {
+              border-bottom-style: solid;
+              text-decoration: none;
+          }
+        }
     }
     #proj-wrap{
         .proj-title {
