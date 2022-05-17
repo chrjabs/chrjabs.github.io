@@ -4,6 +4,9 @@ baseurl: ""
 # Blog Setting
 blog: False
 
+# Language of the website
+lang: en
+
 # Page Settings
 theme_settings:
   title: Christoph Jabs
