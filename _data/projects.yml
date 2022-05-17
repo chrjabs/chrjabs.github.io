@@ -5,7 +5,7 @@
     image:
       path: 'bioptsat.png'
       image: 'A illustration of the search progression of BiOptSat'
-    date: 09/2021 - Developing
+    date: 09/2021 &ndash; Developing
     title: BiOptSat
     summary: MaxSAT-base bi-objective Boolean optimization
     description: An algorithm and implementation to find Pareto-optimal solutions to NP-hard bi-objective combinatorial optimization problems encoded in propositional logic.
@@ -17,7 +17,7 @@
     image:
       path: "portfolio.png" # path: assets/project/
       alt: "A screenshot of the portfolio page"
-    date: 05/2022 - Developing
+    date: 05/2022
     title: Grape-Theme
     summary: Academic portfolio jekyll theme.
     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
