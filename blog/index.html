@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Favicon-->
-  <link rel="shortcut icon" href="/Grape-Academic-Theme/assets/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 
   <!--jQuery-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -16,32 +16,50 @@
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/Grape-Academic-Theme/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- OG Tag -->
   
-  <meta name="title" content="Grape Theme - Blog" />
+  <meta name="title" content="Christoph Jabs - Blog" />
   <meta name="author" content="Christoph Jabs" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="robots" content="index,follow" />
 
-  <meta property="og:title" content="Grape Theme - Blog" />
+  <meta property="og:title" content="Christoph Jabs - Blog" />
   <meta property="og:description" content="" />
   <meta property="og:type" content="website, blog" />
   
   <meta property="og:image"
-    content="/Grape-Academic-Theme/assets/img/smile.png" />
-  <meta property="og:site_name" content="Grape Theme" />
-  <meta property="og:url" content="/Grape-Academic-Theme/blog/" />
+    content="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" />
+  <meta property="og:site_name" content="Christoph Jabs" />
+  <meta property="og:url" content="/blog/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Grape Theme - Blog" />
+  <meta name="twitter:title" content="Christoph Jabs - Blog" />
   <meta name="twitter:description" content="" />
   <meta name="twitter:image"
-    content="/Grape-Academic-Theme/assets/img/smile.png" />
+    content="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" />
 
-  <title>Grape Theme - Blog</title>
+  <title>Christoph Jabs - Blog</title>
+
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(["disableCookies"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//tracking.jabsserver.net/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
 </head>
 <!--jQuery-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -54,16 +72,11 @@
     <nav>
       <ul>
         
-        <a href="/Grape-Academic-Theme/">
+        <a href="/">
           <li class="btn-nav">Home</li>
         </a>
-        <a href="/Grape-Academic-Theme/publications">
+        <a href="/publications">
           <li class="btn-nav">Publications</li>
-        </a>
-        
-        <li class="current">Blog</li>
-        <a href="/Grape-Academic-Theme/tags">
-          <li class="btn-nav">Tags</li>
         </a>
         
         <!-- tags -->
@@ -86,20 +99,31 @@
 
 
 <div id="profile">
-  <a href="/Grape-Academic-Theme/portfolio">
+  <a href="/portfolio">
     <div class="img-wrap">
-      <img src="/Grape-Academic-Theme/assets/img/smile.png" alt="profile-image">
+      <img src="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" alt="profile-image">
     </div>
   </a>
   <p class="username">Christoph Jabs</p>
-  <div class="description"><p>creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.</p>
+  <div class="description"><p>Master’s student in computer science at the <a href="https://www.helsinki.fi/en">University of Helsinki</a>. Researching exact bi-objective optimization in the <a href="https://www2.helsinki.fi/en/researchgroups/constraint-reasoning-and-optimization">Constraint Reasoning and Optimization</a> research group. Originally from Germany.</p>
 </div>
 
   <!-- Social icons from Font Awesome -->
   <ul id="icons">
     
 
+<li>
+  <a href="mailto:%63%68%72%69%73%74%6F%70%68.%6A%61%62%73@%68%65%6C%73%69%6E%6B%69.%66%69" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</li>
 
+
+
+<li>
+  <a href="https://orcid.org/0000-0003-3532-696X", title="ORCID">
+    <i class="ai ai-orcid"></i>
+</li>
 
 
 
@@ -147,37 +171,22 @@
 </div>
 <!-- Tag Navigation -->
 <div id="tag-wrap">
-  <a href="/Grape-Academic-Theme/tags">
+  <a href="/tags">
     <p class="title">TAGS</p>
-  </a>
-  
-  
-  <a href="/Grape-Academic-Theme/tags#Sample%20Post">
-    <span class="tag">Sample Post</span>
-  </a>
-  
-  
-  <a href="/Grape-Academic-Theme/tags#Demo">
-    <span class="tag">Demo</span>
-  </a>
-  
-  
-  <a href="/Grape-Academic-Theme/tags#Welcome%20to%20the%20Grape%20Theme!">
-    <span class="tag">Welcome to the Grape Theme!</span>
   </a>
   
 </div>
 <!-- Project -->
 <div id="proj-wrap">
-  <a href="/Grape-Academic-Theme/portfolio#projects">
+  <a href="/portfolio#projects">
     <p class="title">PROJECTS</p>
     <hr class="proj-hr">
     
     
     
     <div class="proj-content">
-      <div class="proj-title">Grape-Theme</div>
-      <div class="meta">05/2022 &ndash; Developing</div>
+      <div class="proj-title">BiOptSat</div>
+      <div class="meta">09/2021 &ndash; Developing</div>
     </div>
     <hr class="proj-hr">
     
@@ -185,8 +194,8 @@
     
     
     <div class="proj-content">
-      <div class="proj-title">Dummy project</div>
-      <div class="meta">06/2019 &ndash; Developing</div>
+      <div class="proj-title">Grape-Theme</div>
+      <div class="meta">05/2022</div>
     </div>
     <hr class="proj-hr">
     
@@ -196,70 +205,6 @@
     </aside>
     <!-- Post List -->
     <section id="posts" class="col-md-8">
-      
-      <div class="post">
-        <a href="/Grape-Academic-Theme/2019/06/09/grape-theme-style.html">
-          <div class="post-wrap">
-            <div class="text-warp">
-              <h3 class="title">Sample Post with Grape-Theme style</h3>
-              <p class="excerpt">
-                
-                This is an example of a post which includes code, quotes and backtick.
-                
-              </p>
-              <div>
-                <span class="meta">
-                  June 9, 2019
-                </span>
-                <ul class="tag-wrap">
-                  
-                  <a href="/Grape-Academic-Theme/tags#Sample+Post">
-                    <li class="tag-sm">Sample Post</li>
-                  </a>
-                  
-                  <a href="/Grape-Academic-Theme/tags#Welcome+to+the+Grape+Theme%21">
-                    <li class="tag-sm">Welcome to the Grape Theme!</li>
-                  </a>
-                  
-                </ul>
-              </div>
-            </div>
-            
-          </div>
-        </a>
-      </div>
-      
-      <div class="post">
-        <a href="/Grape-Academic-Theme/2019/06/08/markdown-and-html.html">
-          <div class="post-wrap">
-            <div class="text-warp">
-              <h3 class="title">Sample Post with Markdown</h3>
-              <p class="excerpt">
-                
-                This post show result from awesome Markdown techniques like jekyll. Jekyll supports to transform your plain text into static websites and blogs.
-                
-              </p>
-              <div>
-                <span class="meta">
-                  June 8, 2019
-                </span>
-                <ul class="tag-wrap">
-                  
-                  <a href="/Grape-Academic-Theme/tags#Sample+Post">
-                    <li class="tag-sm">Sample Post</li>
-                  </a>
-                  
-                  <a href="/Grape-Academic-Theme/tags#Demo">
-                    <li class="tag-sm">Demo</li>
-                  </a>
-                  
-                </ul>
-              </div>
-            </div>
-            
-          </div>
-        </a>
-      </div>
       
       <!-- Pagination -->
       

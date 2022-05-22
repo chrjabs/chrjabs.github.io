@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Favicon-->
-  <link rel="shortcut icon" href="/Grape-Academic-Theme/assets/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 
   <!--jQuery-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -16,32 +16,50 @@
   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/Grape-Academic-Theme/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- OG Tag -->
   
-  <meta name="title" content="Grape Theme - Portfolio" />
+  <meta name="title" content="Christoph Jabs - Portfolio" />
   <meta name="author" content="Christoph Jabs" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="robots" content="index,follow" />
 
-  <meta property="og:title" content="Grape Theme - Portfolio" />
+  <meta property="og:title" content="Christoph Jabs - Portfolio" />
   <meta property="og:description" content="" />
   <meta property="og:type" content="website, blog" />
   
   <meta property="og:image"
-    content="/Grape-Academic-Theme/assets/img/smile.png" />
-  <meta property="og:site_name" content="Grape Theme" />
-  <meta property="og:url" content="/Grape-Academic-Theme/" />
+    content="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" />
+  <meta property="og:site_name" content="Christoph Jabs" />
+  <meta property="og:url" content="/" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Grape Theme - Portfolio" />
+  <meta name="twitter:title" content="Christoph Jabs - Portfolio" />
   <meta name="twitter:description" content="" />
   <meta name="twitter:image"
-    content="/Grape-Academic-Theme/assets/img/smile.png" />
+    content="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" />
 
-  <title>Grape Theme - Portfolio</title>
+  <title>Christoph Jabs - Portfolio</title>
+
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(["disableCookies"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//tracking.jabsserver.net/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
 </head>
 <!--jQuery-->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -55,15 +73,8 @@
       <ul>
         
         <li class="current">Home</li>
-        <a href="/Grape-Academic-Theme/publications">
+        <a href="/publications">
           <li class="btn-nav">Publications</li>
-        </a>
-        
-        <a href="/Grape-Academic-Theme/blog">
-          <li class="btn-nav">Blog</li>
-        </a>
-        <a href="/Grape-Academic-Theme/tags">
-          <li class="btn-nav">Tags</li>
         </a>
         
         <!-- publications -->
@@ -82,18 +93,29 @@
     <div class="row">
       <div class="img-wrap col-12 col-md-4">
         <div class="img">
-          <img src="/Grape-Academic-Theme/assets/img/smile.png" alt="user_image">
+          <img src="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" alt="user_image">
         </div>
       </div>
       <div class="text-wrap col-12 col-md-8">
         <h2 class="username">Christoph Jabs</h2>
-        <div class="description"><p>creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.</p>
+        <div class="description"><p>Master’s student in computer science at the <a href="https://www.helsinki.fi/en">University of Helsinki</a>. Researching exact bi-objective optimization in the <a href="https://www2.helsinki.fi/en/researchgroups/constraint-reasoning-and-optimization">Constraint Reasoning and Optimization</a> research group. Originally from Germany.</p>
 </div>
 
         <ul id="icons">
           
 
+<li>
+  <a href="mailto:%63%68%72%69%73%74%6F%70%68.%6A%61%62%73@%68%65%6C%73%69%6E%6B%69.%66%69" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</li>
 
+
+
+<li>
+  <a href="https://orcid.org/0000-0003-3532-696X", title="ORCID">
+    <i class="ai ai-orcid"></i>
+</li>
 
 
 
@@ -149,8 +171,23 @@
 <ul class="exper-list">
   
   <li class="meta">
-    <p class="date">2017-05-03 &ndash; 2018-05-06</p>
-    <p class="description">company name, title</p>
+    <p class="date">05/2021 &ndash; current</p>
+    <p class="description">CoReO group, University of Helsinki</p>
+  </li>
+  
+  <li class="meta">
+    <p class="date">08/2020 &ndash; 06/2022</p>
+    <p class="description">Master of Science in Computer Science, University of Helsinki</p>
+  </li>
+  
+  <li class="meta">
+    <p class="date">06/2019 &ndash; 06/2020</p>
+    <p class="description">Various student jobs at Robert Bosch GmbH Reutlingen</p>
+  </li>
+  
+  <li class="meta">
+    <p class="date">03/2016 &ndash; 02/2020</p>
+    <p class="description">Bachelor of Engineering in Mechatronics, Reutlingen University</p>
   </li>
   
 </ul>
@@ -159,16 +196,29 @@
       <p class="title">RESEARCH INTERESTS</p>
 <ul class="interests-list">
   
-  <li class="interest">Interest 1</li>
+  <li class="interest">Boolean satisfiability and optimization</li>
   
-  <li class="interest">Interest 2</li>
+  <li class="interest">Bi-objective optimization</li>
+  
+  <li class="interest">Declarative problem solving</li>
+  
+  <li class="interest">Explainable artificial intelligence</li>
   
 </ul>
       <p class="title">SKILLS</p>
 <ul class="skill-list">
   
   <li class="skill">
-    <p class="name">HTML5 & CSS</p>
+    <p class="name">C++</p>
+    <div class="progress">
+      <div class="progress-bar" style="width: 80%">
+        <div class="progress-value">80%</div>
+      </div>
+    </div>
+  </li>
+  
+  <li class="skill">
+    <p class="name">Python (pandas, numpy, ...)</p>
     <div class="progress">
       <div class="progress-bar" style="width: 85%">
         <div class="progress-value">85%</div>
@@ -191,23 +241,23 @@
         <div class="card">
           
           <div class="img-wrap">
-            <img src="/Grape-Academic-Theme/assets/project/portfolio.png" alt="A screenshot of the portfolio page">
+            <img src="/assets/project/bioptsat.png" alt="">
           </div>
           
           <div class="text-wrap ">
             <div class="title-wrap">
-              <p class="date">05/2022 &ndash; Developing</p>
-              <div class="title">Grape-Theme</div>
+              <p class="date">09/2021 &ndash; Developing</p>
+              <div class="title">BiOptSat</div>
             </div>
             <div class="meta">
               
             </div>
-            <div class="description">A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.</div>
+            <div class="description">An algorithm and implementation to find Pareto-optimal solutions to NP-hard bi-objective combinatorial optimization problems encoded in propositional logic.</div>
           </div>
           <div class="icons">
             
             
-            <a href="https://github.com/chrjabs/Grape-Academic-Theme"><i class="far fa-eye"></i></a>
+            <a href="https://bitbucket.org/coreo-group/bioptsat"><i class="far fa-eye"></i></a>
             
             
             <a title="1" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
@@ -224,39 +274,15 @@
       <p>&times;</p>
     </div>
     <div class="header">
-      <p class="date">05/2022 &ndash; Developing</p>
-      <p class="title">Grape-Theme</p>
-      <p class="summary">Academic portfolio jekyll theme.</p>
+      <p class="date">09/2021 &ndash; Developing</p>
+      <p class="title">BiOptSat</p>
+      <p class="summary">MaxSAT-base bi-objective Boolean optimization</p>
     </div>
     <div class="content">
       
-        <img src="/Grape-Academic-Theme/assets/project/portfolio.png" alt="A screenshot of the portfolio page">
+        <img src="/assets/project/bioptsat.png" alt="">
       
-      <div class="description">A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.</div>
-      
-      <div class="sub-content">
-        <div class="title">1. Portfolio Page</div>
-        
-          <img src="/Grape-Academic-Theme/assets/project/portfolio.png" alt="A screenshot of the portfolio page">
-        
-        <div class="description"><li>Concise portfolio page</li> <li>Recent publications</li> <li>Projects</li></div>
-      </div>
-      
-      <div class="sub-content">
-        <div class="title">2. Optional Blog Functionality</div>
-        
-          <img src="/Grape-Academic-Theme/assets/project/home.png" alt="A screenshot of the blog page">
-        
-        <div class="description"><li>Responsive Layout</li> <li>Tags</li> <li>Pagination</li></div>
-      </div>
-      
-      <div class="sub-content">
-        <div class="title">3. Tags Page</div>
-        
-          <img src="/Grape-Academic-Theme/assets/project/tags.png" alt="A screenshot of the tags page">
-        
-        <div class="description"><li>Responsive Layout</li> <li>Tags</li></div>
-      </div>
+      <div class="description">An algorithm and implementation to find Pareto-optimal solutions to NP-hard bi-objective combinatorial optimization problems encoded in propositional logic.</div>
       
     </div>
   </div>
@@ -269,17 +295,24 @@
       <div class="card-wrapper">
         <div class="card">
           
+          <div class="img-wrap">
+            <img src="/assets/project/portfolio.png" alt="A screenshot of the portfolio page">
+          </div>
+          
           <div class="text-wrap ">
             <div class="title-wrap">
-              <p class="date">06/2019 &ndash; Developing</p>
-              <div class="title">Dummy project</div>
+              <p class="date">05/2022</p>
+              <div class="title">Grape-Theme</div>
             </div>
             <div class="meta">
               
             </div>
-            <div class="description"></div>
+            <div class="description">A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.</div>
           </div>
           <div class="icons">
+            
+            
+            <a href="https://github.com/chrjabs/Grape-Academic-Theme"><i class="far fa-eye"></i></a>
             
             
             <a title="2" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>
@@ -296,13 +329,39 @@
       <p>&times;</p>
     </div>
     <div class="header">
-      <p class="date">06/2019 &ndash; Developing</p>
-      <p class="title">Dummy project</p>
-      <p class="summary">This is a Dummy</p>
+      <p class="date">05/2022</p>
+      <p class="title">Grape-Theme</p>
+      <p class="summary">Academic portfolio jekyll theme.</p>
     </div>
     <div class="content">
       
-      <div class="description"></div>
+        <img src="/assets/project/portfolio.png" alt="A screenshot of the portfolio page">
+      
+      <div class="description">A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.</div>
+      
+      <div class="sub-content">
+        <div class="title">1. Portfolio Page</div>
+        
+          <img src="/assets/project/portfolio.png" alt="A screenshot of the portfolio page">
+        
+        <div class="description"><li>Concise portfolio page</li> <li>Recent publications</li> <li>Projects</li></div>
+      </div>
+      
+      <div class="sub-content">
+        <div class="title">2. Optional Blog Functionality</div>
+        
+          <img src="/assets/project/home.png" alt="A screenshot of the blog page">
+        
+        <div class="description"><li>Responsive Layout</li> <li>Tags</li> <li>Pagination</li></div>
+      </div>
+      
+      <div class="sub-content">
+        <div class="title">3. Tags Page</div>
+        
+          <img src="/assets/project/tags.png" alt="A screenshot of the tags page">
+        
+        <div class="description"><li>Responsive Layout</li> <li>Tags</li></div>
+      </div>
       
     </div>
   </div>
@@ -316,58 +375,27 @@
 </section>
 
 <!-- modal -->
-<script type="text/javascript" src="/Grape-Academic-Theme/assets/js/modal.js"></script>
+<script type="text/javascript" src="/assets/js/modal.js"></script>
 
   <section id="recentpubs">
   <div class="recentpubs-wrap">
     <p class="title">RECENT PUBLICATIONS</p>
-    [<a class="btn" href="/Grape-Academic-Theme/publications" title="Publications">All Publications</a>]
+    [<a class="btn" href="/publications" title="Publications">All Publications</a>]
     <ol class="bibliography"><li><!-- Entry bib key -->
-<div id="test">
+<div id="JabsEtAl2022MaxSATBasedBi">
 
   <!-- Title -->
-  <div class="title">An Article</div>
+  <div class="title">MaxSAT-Based Bi-Objective Boolean Optimization</div>
   <!-- Author -->
   <div class="author">
-          <em>Me, Myself</em>,&nbsp;and <a href="https://www.google.com/search?q=them+others" target="_blank" rel="noopener noreferrer">Others, Them</a>
+          <em>Jabs, Christoph</em>,&nbsp;<a href="https://jeremiasberg.com/" target="_blank" rel="noopener noreferrer">Berg, Jeremias</a>,&nbsp;<a href="https://www.cs.helsinki.fi/u/andreasn/" target="_blank" rel="noopener noreferrer">Niskanen, Andreas</a>,&nbsp;and <a href="https://www.cs.helsinki.fi/u/mjarvisa/" target="_blank" rel="noopener noreferrer">Järvisalo, Matti</a>
           
   </div>
 
   <!-- Journal/Book title and date -->
   
   <div class="third-line">
-    Some important journal, 2010
-  </div>
-</div></li>
-<li><!-- Entry bib key -->
-<div id="ruby">
-
-  <!-- Title -->
-  <div class="title">The Ruby Programming Language</div>
-  <!-- Author -->
-  <div class="author">Flanagan, David,&nbsp;and Matsumoto, Yukihiro
-  </div>
-
-  <!-- Journal/Book title and date -->
-  
-  <div class="third-line">
-    2008
-  </div>
-</div></li>
-<li><!-- Entry bib key -->
-<div id="DBLP:conf/sat/FuM06">
-
-  <!-- Title -->
-  <div class="title">On Solving the Partial MAX-SAT Problem</div>
-  <!-- Author -->
-  <div class="author">Fu, Zhaohui,&nbsp;and Malik, Sharad
-  </div>
-
-  <!-- Journal/Book title and date -->
-  
-  <div class="third-line">
-    In Theory and Applications of Satisfiability Testing — SAT 2006, 9th
-               International Conference, Seattle, WA, USA, August 12–15, 2006, Proceedings, vol. 4121, pp. 252–265, 2006
+    In 25th International Conference on Theory and Applications of Satisfiability Testing (SAT 2022), Haifa, Israel, August 2–5, 2022, vol. 236, 2022
   </div>
 </div></li></ol>
   </div>
