@@ -5,6 +5,7 @@ echo "Adding CV"
 cvdir=~/Git/curiculum_vitae/
 wpdir=$(pwd)
 cd $cvdir
+git pull
 latexmk -pdf english.tex
 cd $wpdir
 mkdir -p assets/pdfs
