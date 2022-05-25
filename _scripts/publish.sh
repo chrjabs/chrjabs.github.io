@@ -14,6 +14,7 @@ fi
 commit_hash=$(git rev-parse HEAD)
 branch=$(git rev-parse --abbrev-ref HEAD)
 if [ -d "_scripts/publish.d" ]; then
+  rm -r "/tmp/publish.d"
   cp -r "_scripts/publish.d" "/tmp/publish.d"
 fi
 bundle exec jekyll b -d /tmp/gh-pages-publish
