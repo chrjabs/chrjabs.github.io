@@ -8,14 +8,14 @@ blog: False
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
-description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
+title: Christoph Jabs
+tagline: My personal academic portfolio
+description: My academic portfolio with everything from publications, over presentations and projects to my CV.
 author: Christoph Jabs (chrjabs)
 twitter:
   username: chrjabs
-  card: A jekyll theme for academic portfolios
-logo: /assets/img/smile.png
+  card: My personal academic portfolio
+logo: https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=400
 social:
   name: Christoph Jabs
   links:
