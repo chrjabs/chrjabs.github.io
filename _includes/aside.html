@@ -1,5 +1,5 @@
 <!-- User Profile -->
-{% assign profile = site.theme_settings.profile %}
+{% assign profile = site.data.profile %}
 {% assign urlstart = profile.image | split: '/' %}
 {% if urlstart == 'https:' %}
   {% assign imgurl = profile.image %}
@@ -17,7 +17,7 @@
 
   <!-- Social icons from Font Awesome -->
   <ul id="icons">
-    {% include icons.html %}
+    {% include social.html %}
   </ul>
 </div>
 <!-- Tag Navigation -->

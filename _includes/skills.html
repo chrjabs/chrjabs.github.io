@@ -1,6 +1,6 @@
 <p class="title">{{ site.theme_settings.skills_title }}</p>
 <ul class="skill-list">
-  {% for _ in profile.skills %}
+  {% for _ in site.data.profile.skills %}
   <li class="skill">
     <p class="name">{{ _.skill }}</p>
     <div class="progress">

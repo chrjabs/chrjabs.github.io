@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% assign profile = site.theme_settings.profile %}
+{% assign profile = site.data.profile %}
 {% assign urlstart = profile.image | split: '/' %}
 {% if urlstart == 'https:' %}
   {% assign imgurl = profile.image %}
@@ -23,7 +23,7 @@ layout: page
         <div class="description">{{ profile.description | markdownify }}</div>
 
         <ul id="icons">
-          {% include icons.html %}
+          {% include social.html %}
         </ul>
       </div>
     </div>
