@@ -9,8 +9,8 @@ lang: en
 
 # Search engine optimization settings
 title: Christoph Jabs
-tagline: My personal academic portfolio
-description: My academic portfolio with everything from publications, over presentations and projects to my CV.
+tagline: German CS student living in Helsinki
+description: Master's student in computer science at the University of Helsinki. Researching exact bi-objective optimization in the Constraint Reasoning and Optimization research group under supervision of Matti Järvisalo. Originally from Germany.
 author: Christoph Jabs (chrjabs)
 twitter:
   username: chrjabs
