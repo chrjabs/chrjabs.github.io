@@ -3,6 +3,50 @@
 References
 ==========
 
+@mastersthesis{Jabs2020RecurrentNeuralNet,
+  author           = {Christoph Jabs},
+  school           = {Reutlingen University},
+  title            = {A Recurrent Neural Net Approach to Activity Recognition},
+  year             = {2020},
+  abstract         = {A common approach in current research publication on analysing multimodal time-series data from inertial sensors is to use Convolutional Neural Networks (CNNs) to automatically learn patterns in the given data.
+                      The disadvantage when using CNNs in such an application on mobile devices is that they are highly computationally complex.
+                      Therefore, this thesis studies the question if Long-Short-Term-Memory (LSTM) networks, which are significantly less computationally complex, can be used as an alternative for such applications.
+                      
+                      Firstly the topic of Human Activity Recognition (HAR) and the used datasets Opportunity and mHealth are presented.
+                      Following that, inertial sensors and their functional principles are briefly touched on.
+                      In the main part of the work, the methods used, mainly LSTMs and CNNs are laid out.
+                      In our experiments, we mainly present an architecture study in which 380 LSTM variants were trained and tested on the Opportunity dataset.
+                      A modified training process called Relaxed Truth Training that speeds up the training process slightly is also presented and tested in our experiments.
+                      When comparing the best two LSTM networks from the architecture study to two different CNN architectures, we found superior performance from the LSTMs, mainly when looking at close to real life, continuous classification problems.
+                      These results were verified by testing the same architectures on the mHealth dataset.},
+  bachelors_thesis = true,
+  bibtex_show      = true
+}
+
+@mastersthesis{Jabs2022MaximumSatisfiabilityBased,
+  author      = {Christoph Jabs},
+  school      = {University of Helsinki},
+  title       = {A Maximum Satisfiability Based Approach to Bi-Objective Boolean Optimization},
+  year        = {2022},
+  url         = {http://urn.fi/URN:NBN:fi:hulib-202206132323},
+  abstract    = {Many real-world problem settings give rise to NP-hard combinatorial optimization problems.
+                 This results in a need for non-trivial algorithmic approaches for finding optimal solutions to such problems.
+                 Many such approaches—ranging from probabilistic and meta-heuristic algorithms to declarative programming—have been presented for optimization problems with a single objective.
+                 Less work has been done on approaches for optimization problems with multiple objectives.
+                 
+                 We present BiOptSat, an exact declarative approach for finding so-called Pareto-optimal solutions to bi-objective optimization problems.
+                 A bi-objective optimization problem arises for example when learning interpretable classifiers and the size, as well as the classification error of the classifier should be taken into account as objectives.
+                 Using propositional logic as a declarative programming language, we seek to extend the progress and success in maximum satisfiability (MaxSAT) solving to two objectives.
+                 BiOptSat can be viewed as an instantiation of the lexicographic method and makes use of a single SAT solver that is preserved throughout the entire search procedure.
+                 It allows for solving three tasks for bi-objective optimization: finding a single Pareto-optimal solution, finding one representative solution for each Pareto point, and enumerating all Pareto-optimal solutions.
+                 
+                 We provide an open-source implementation of five variants of BiOptSat, building on different algorithms proposed for MaxSAT.
+                 Additionally, we empirically evaluate these five variants, comparing their runtime performance to that of three key competing algorithmic approaches.
+                 The empirical comparison in the contexts of learning interpretable decision rules and bi-objective set covering shows practical benefits of our approach.
+                 Furthermore, for the best-performing variant of BiOptSat, we study the effects of proposed refinements to determine their effectiveness.},
+  bibtex_show = true
+}
+
 @inproceedings{JabsEtAl2022MaxSATBasedBi,
   author      = {Christoph Jabs and Jeremias Berg and Andreas Niskanen and Matti J{\"{a}}rvisalo},
   booktitle   = {25th International Conference on Theory and Applications of Satisfiability Testing (SAT 2022), Haifa, Israel, August 2--5, 2022},
@@ -22,6 +66,7 @@ References
                  In particular, we describe several variants of the approach which arise from different approaches to MaxSAT solving.
                  In addition to computing a single representative solution per each point of the Pareto front, the approach allows for enumerating all Pareto-optimal solutions.
                  We empirically compare the efficiency of the approach to recent competing approaches, showing practical benefits of our approach in the contexts of learning interpretable classification rules and bi-objective set covering.},
+  doi         = {10.4230/LIPIcs.SAT.2022.12},
+  pdf         = {https://www.cs.helsinki.fi/u/mjarvisa/papers/jbnj.sat22.pdf},
   bibtex_show = true
 }
-
