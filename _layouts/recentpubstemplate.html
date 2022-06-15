@@ -64,6 +64,14 @@
     {%- capture thirdLine -%}{{entry.journal}}{%- endcapture -%}
   {%- elsif entry.type == "inproceedings" -%}
     {%- capture thirdLine -%}In {{entry.booktitle}}{%- endcapture -%}
+  {%- elsif entry.type == "phdthesis" -%}
+    {%- capture thirdLine -%}PhD thesis, {{entry.school}}{%- endcapture -%}
+  {%- elsif entry.type == "mastersthesis" -%}
+    {% if entry.bachelors_thesis -%}
+      {%- capture thirdLine -%}Bachelor's thesis, {{entry.school}}{%- endcapture -%}
+    {% else %}
+      {%- capture thirdLine -%}Master's thesis, {{entry.school}}{%- endcapture -%}
+    {%- endif -%}
   {%- endif -%}
   {%- if entry.volume -%}
     {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}vol. {{ entry.volume }}{%- endcapture -%}
