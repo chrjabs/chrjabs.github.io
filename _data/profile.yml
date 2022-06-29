@@ -3,9 +3,12 @@ username: Christoph Jabs
 description: Master's student in computer science at the [University of Helsinki](https://www.helsinki.fi/en). Researching exact bi-objective optimization in the [Constraint Reasoning and Optimization](https://www2.helsinki.fi/en/researchgroups/constraint-reasoning-and-optimization) research group under supervision of [Matti Järvisalo](https://www.cs.helsinki.fi/u/mjarvisa/). Originally from Germany.
 webpage: https://christophjabs.info
 experience:
-  - start: 05/2021
+  - start: 09/2022
     end: current
-    experience: CoReO group, University of Helsinki
+    experience: Doctoral researcher, CoReO group, University of Helsinki
+  - start: 05/2021
+    end: 08/2022
+    experience: Research assistant, CoReO group, University of Helsinki
   - start: 08/2020
     end: 06/2022
     experience: Master of Science in Computer Science, University of Helsinki
@@ -20,6 +23,7 @@ interests:
   - Bi-objective optimization
   - Declarative problem solving
   - Explainable artificial intelligence
+  - Fair data representation
 skills: 
   - skill: C++
     value: 80
