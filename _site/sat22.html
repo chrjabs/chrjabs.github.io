@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Favicon code from realfavicongenerator.net -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#dd7d0f">
+<meta name="msapplication-TileColor" content="#025259">
+<meta name="theme-color" content="#ffffff">
+
+  <!--jQuery-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>SAT’22 - BiOptSat | Christoph Jabs</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="SAT’22 - BiOptSat" />
+<meta name="author" content="Christoph Jabs (chrjabs)" />
+<meta property="og:locale" content="en_GB" />
+<meta name="description" content="Material regarding my presentation @ SAT’22 @ FLoC’22 about MaxSAT-Based Bi-Objective Boolean Optimization." />
+<meta property="og:description" content="Material regarding my presentation @ SAT’22 @ FLoC’22 about MaxSAT-Based Bi-Objective Boolean Optimization." />
+<link rel="canonical" href="http://localhost:4000/sat22.html" />
+<meta property="og:url" content="http://localhost:4000/sat22.html" />
+<meta property="og:site_name" content="Christoph Jabs" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="SAT’22 - BiOptSat" />
+<meta name="twitter:site" content="@chrjabs" />
+<meta name="twitter:creator" content="@Christoph Jabs (chrjabs)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Christoph Jabs (chrjabs)"},"description":"Material regarding my presentation @ SAT’22 @ FLoC’22 about MaxSAT-Based Bi-Objective Boolean Optimization.","headline":"SAT’22 - BiOptSat","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=400"},"name":"Christoph Jabs (chrjabs)"},"url":"http://localhost:4000/sat22.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDoNotTrack", true]);
+    _paq.push(["disableCookies"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//tracking.jabsserver.net/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+</head>
+<!--jQuery-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<body>
+  <div class="container">
+    
+
+<section id="header-nav">
+  <header>
+    <nav>
+      <ul>
+        
+        <!-- others -->
+        <a href="/">
+          <li class="btn-nav">Home</li>
+        </a>
+        
+          <a href="/publications">
+            <li class="btn-nav">Publications</li>
+          </a>
+        
+        
+          <a href="/presentations">
+            <li class="btn-nav">Presentations</li>
+          </a>
+        
+        <a href="/assets/pdfs/cv_jabs_christoph.pdf" target="_blank" rel="noopener noreferrer">
+          <li class="btn-nav">Curiculum Vitae</li>
+        </a>
+        
+        
+      </ul>
+    </nav>
+  </header>
+</section>
+<div id="hub">
+  <section id="header-content">
+    <h1>SAT'22 - BiOptSat</h1>
+  </section>
+  <section class="bg"></section>
+  <div class="row">
+    <!-- Aside Navigation  -->
+    <aside id="aside" class="col-md-4">
+      <!-- User Profile -->
+
+
+
+<div id="profile">
+  <a href="/portfolio">
+    <div class="img-wrap">
+      <img src="https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700" alt="profile-image">
+    </div>
+  </a>
+  <p class="username">Christoph Jabs</p>
+
+  <!-- Social icons from Font Awesome -->
+  <ul id="icons">
+    
+
+<li>
+  <a href="mailto:%63%6F%6E%74%61%63%74@%63%68%72%69%73%74%6F%70%68%6A%61%62%73.%69%6E%66%6F" target="_blank" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://orcid.org/0000-0003-3532-696X" target="_blank" title="ORCID">
+    <i class="ai ai-orcid"></i>
+  </a>
+</li>
+
+
+
+<li>
+  <a href="https://scholar.google.com/citations?user=f5m-HaQAAAAJ" target="_blank" title="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="https://github.com/chrjabs" target="_blank" title="Github">
+    <i class="fab fa-github"></i>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="https://bitbucket.org/chrjabs" target="_blank" title="Bitbucket">
+    <i class="fab fa-bitbucket"></i>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="https://twitter.com/chrjabs" target="_blank" title="Twitter">
+    <i class="fab fa-twitter"></i>
+  </a>
+</li>
+
+
+
+
+
+
+
+  </ul>
+</div>
+    </aside>
+    <!-- Post List -->
+    <section id="content" class="col-md-8">
+      <p>Material regarding my presentation @ SAT’22 @ FLoC’22 about <em>MaxSAT-Based Bi-Objective Boolean Optimization</em>.</p>
+
+      <section class="links">
+        <h2>Links</h2>
+        
+          
+          <ol class="bibliography"><li><ol class="link-list">
+  <li>
+    <a href="https://media.christophjabs.info/papers/JabsEtAl2022MaxSATBasedBi.pdf" target="_blank", role="button" title="PDF">
+        <i class="fas fa-file-pdf"></i>PDF
+    </a>
+  </li>
+  <li>
+    <a href="https://bitbucket.org/coreo-group/bioptsat" target="_blank" role="button" title="Code">
+      <i class="fas fa-code"></i>Code
+    </a>
+  </li>
+  <li>
+    <a href="http://doi.org/10.4230/LIPIcs.SAT.2022.12" target="_blank" role="button" title="DOI">
+      <i class="ai ai-doi"></i>DOI
+    </a>
+  </li>
+
+
+</ol></li></ol>
+        
+      </section>
+      
+
+      <section class="abs-bibtex">
+        
+          <ol class="bibliography"><li><h2>Abstract</h2>
+<p>We explore a MaxSAT-based approach to bi-objective optimization.
+                 Bi-objective optimization refers to the task of finding so-called Pareto-optimal solutions in terms of two objective functions.
+                 Bi-objective optimization problems naturally arise in various real-world settings.
+                 For example, in the context of learning interpretable representations, such as decision rules, from data, one wishes to balance between two objectives, the classification error and the size of the representation.
+                 Our approach is generally applicable to bi-objective optimizations which allow for propositional encodings.
+                 The approach makes heavy use of incremental SAT and draws inspiration from modern MaxSAT solving approaches.
+                 In particular, we describe several variants of the approach which arise from different approaches to MaxSAT solving.
+                 In addition to computing a single representative solution per each point of the Pareto front, the approach allows for enumerating all Pareto-optimal solutions.
+                 We empirically compare the efficiency of the approach to recent competing approaches, showing practical benefits of our approach in the contexts of learning interpretable classification rules and bi-objective set covering.</p>
+<h2>Bibtex</h2>
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">JabsEtAl2022MaxSATBasedBi</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Jabs, Christoph and Berg, Jeremias and Niskanen, Andreas and J{\"{a}}rvisalo, Matti}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{25th International Conference on Theory and Applications of Satisfiability Testing (SAT 2022), Haifa, Israel, August 2--5, 2022}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{MaxSAT}-Based Bi-Objective Boolean Optimization}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">editor</span> <span class="p">=</span> <span class="s">{Meel, Kuldeep S. and Strichman, Ofer}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Schloss Dagstuhl --- Leibniz-Zentrum f{\"{u}}r Informatik}</span><span class="p">,</span>
+  <span class="na">series</span> <span class="p">=</span> <span class="s">{LIPIcs}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{12:1--12:23}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{236}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.4230/LIPIcs.SAT.2022.12}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure></li></ol>
+        
+      </section>
+    </section>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    Copyright © 2022
+    <a href=""></a>.
+    Powered by Jekyll with
+    <a href="https://github.com/chrjabs/Grape-Academic-Theme">Grape Academic Theme</a>.
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
