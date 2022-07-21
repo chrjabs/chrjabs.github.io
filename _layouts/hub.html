@@ -13,7 +13,7 @@ layout: page
     </aside>
     <!-- Post List -->
     <section id="content" class="col-md-8">
-      {{ page.description }}
+      {{ page.description | markdownify }}
       <section class="links">
         <h2>Links</h2>
         {% if page.citekey %}
