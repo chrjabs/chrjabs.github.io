@@ -1,7 +1,10 @@
 # Site Settings
 baseurl: ""
 
-# Blog Setting
+# Features Setting
+# Turn subpages on or off
+publications: True
+presentations: True
 blog: False
 
 # Language of the website
