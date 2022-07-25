@@ -48,3 +48,5 @@ social:
   youtube:
   facebook:
   instagram:
+awards: # Remove for hiding the awards section
+  - "This is an award I got"
