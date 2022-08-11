@@ -1,13 +1,10 @@
 image: https://s.gravatar.com/avatar/6441cc4485943f3202aa6ff355577806?s=700
 username: Christoph Jabs
-description: Doctoral researcher in computer science at the [University of Helsinki](https://www.helsinki.fi/en). Researching exact (multi-objective) optimization in the [Constraint Reasoning and Optimization](https://www2.helsinki.fi/en/researchgroups/constraint-reasoning-and-optimization) research group supervised by [Matti Järvisalo](https://www.cs.helsinki.fi/u/mjarvisa/). Originally from Germany.
+description: MSc Research Assistant in computer science at the [University of Helsinki](https://www.helsinki.fi/en). Researching exact (multi-objective) optimization in the [Constraint Reasoning and Optimization](https://www2.helsinki.fi/en/researchgroups/constraint-reasoning-and-optimization) research group supervised by [Matti Järvisalo](https://www.cs.helsinki.fi/u/mjarvisa/). Originally from Germany.
 webpage: https://christophjabs.info
 experience:
-  - start: 09/2022
-    end: current
-    experience: Doctoral researcher, CoReO group, University of Helsinki
   - start: 05/2021
-    end: 08/2022
+    end: current
     experience: Research assistant, CoReO group, University of Helsinki
   - start: 08/2020
     end: 06/2022
