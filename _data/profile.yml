@@ -36,8 +36,8 @@ social:
   scholar: f5m-HaQAAAAJ
   publons: 
   research_gate: 
-  dblp:  # Full URL
-  semantic_scholar:  # Full URL
+  dblp: https://dblp.org/pid/325/2848.html # Full URL
+  semantic_scholar: https://www.semanticscholar.org/author/Christoph-Jabs/2174214764 # Full URL
   linkedin:  # Full URL 
   github: chrjabs
   gitlab: 
