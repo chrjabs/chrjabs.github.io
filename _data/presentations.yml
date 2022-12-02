@@ -1,7 +1,14 @@
 - presentation:
     title: MaxSAT-Based Bi-Objective Boolean Optimization
-    event: SAT 2022 @ FLoC 2022
+    event: SAT '22 @ FLoC '22
     date: 08/2022
     comment: Presentation to go with the paper with the same name
     slides: https://media.christophjabs.info/slides/Jabs2022MaximumSatisfiabilityBased.pdf
     hub: sat22
+- presentation:
+    title: Bi-Objective MaxSAT and the BiOptSat Algorithm
+    event: MIAO Seminar
+    date: 12/2022
+    comment: Presentation during a research visit, mainly about our SAT'22 paper
+    slides: https://media.christophjabs.info/slides/cph22bioptsat.pdf
+    hub: cph22
