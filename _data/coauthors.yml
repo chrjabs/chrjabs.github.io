@@ -9,3 +9,7 @@
 "Niskanen":
   - firstname: ["Andreas", "A."]
     url: https://www.cs.helsinki.fi/u/andreasn/
+
+"Ihalainen":
+  - firstname: ["Hannes", "H."]
+    url: https://dblp.org/pid/303/8801.html
