@@ -1,6 +1,24 @@
 - project:
     print: True
-    modal: True
+    modal: False
+    url: https://github.com/chrjabs/rustsat
+    date: 07/2022 &ndash; Developing
+    title: RustSAT
+    summary: SAT-solving library in Rust.
+    description: This library aims to provide implementations of elements commonly used in the development on software in the area of satisfiability solving. The focus of the library is to provide as much ease of use without giving up on performance.
+
+- project:
+    print: True
+    modal: False
+    url: https://bitbucket.org/coreo-group/scuttle
+    date: 10/2022 &ndash; Developing
+    title: Scuttle
+    summary: A multi-objective MaxSAT solver written in Rust.
+    description: This multi-objective MaxSAT solver is written in Rust and based on the RustSAT library. The algorithm is based on P-minimal model enumeration.
+
+- project:
+    print: True
+    modal: False
     url: https://bitbucket.org/coreo-group/bioptsat
     image:
       path: 'bioptsat.png'

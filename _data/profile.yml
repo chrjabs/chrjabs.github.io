@@ -28,7 +28,7 @@ skills:
   - skill: C++
     value: 80
   - skill: Rust
-    value: 70
+    value: 80
   - skill: Python (pandas, numpy, ...)
     value: 85
   - skill: Bash
