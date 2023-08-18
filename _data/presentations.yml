@@ -3,6 +3,8 @@
     event: CP '23
     date: 08/2023
     comment: Presentation to go with the paper with the same name
+    slides: https://media.christophjabs.info/slides/JabsEtAl2023PreprocessingSATBased.pdf
+    poster: https://media.christophjabs.info/posters/JabsEtAl2023PreprocessingSATBased.pdf
     hub: cp23
 - presentation:
     title: Bi-Objective MaxSAT and the BiOptSat Algorithm
