@@ -1,6 +1,12 @@
 - presentation:
+    title: Core Boosting in SAT-Based Multi-Objective Optimization
+    event: CPAIOR'24
+    date: 05/2024
+    comment: Presentation to go with the paper with the same name
+    hub: cpaior24
+- presentation:
     title: Preprocessing for SAT-Based Multi-Objective Combinatorial Optimization
-    event: CP '23
+    event: CP'23
     date: 08/2023
     comment: Presentation to go with the paper with the same name
     slides: https://media.christophjabs.info/slides/JabsEtAl2023PreprocessingSATBased.pdf
@@ -16,7 +22,7 @@
     recording: https://www.youtube.com/watch?v=E2QMO4hO8q0
 - presentation:
     title: MaxSAT-Based Bi-Objective Boolean Optimization
-    event: SAT '22 @ FLoC '22
+    event: SAT'22 @ FLoC '22
     date: 08/2022
     comment: Presentation to go with the paper with the same name
     slides: https://media.christophjabs.info/slides/Jabs2022MaximumSatisfiabilityBased.pdf
