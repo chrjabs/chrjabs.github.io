@@ -14,23 +14,9 @@ layout: page
     <!-- Post List -->
     <section id="content" class="col-md-8">
       {{ page.description | markdownify }}
-      <section class="links">
-        <h2>Links</h2>
-        {% if page.citekey %}
-          {% nocite page.citekey %}
-          {% bibliography --cited --template pubhublinkstemplate %}
-        {% else %}
-          <ol class="link-list">
-            {% include hubadditionallinks.html %}
-          </ol>
-        {% endif %}
-      </section>
+      {% include hublinks.html citekey=page.citekey links=page.links %}
       {{ content }}
-      <section class="abs-bibtex">
-        {% if page.citekey %}
-          {% bibliography --cited --template pubhubabsbibtex %}
-        {% endif %}
-      </section>
+      {% include hubabsbibtex.html citekey=page.citekey links=page.links %}
     </section>
   </div>
 </div>

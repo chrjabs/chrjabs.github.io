@@ -6,4 +6,5 @@ description: Material regarding my presentation at our visit at the MIAO researc
 links:
   - url: https://media.christophjabs.info/slides/cph22bioptsat.pdf
     description: Extended Slides for Research Visit
+    icon: "fas fa-chalkboard-teacher"
 ---

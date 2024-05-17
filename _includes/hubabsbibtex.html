@@ -1,0 +1,8 @@
+{%- assign citekey = include.citekey -%}
+{%- assign id = include.id -%}
+<section class="abs-bibtex">
+  {% if citekey %}
+    {% nocite citekey %}
+    {% bibliography --cited --clear --prefix id --template pubhubabsbibtex %}
+  {% endif %}
+</section>

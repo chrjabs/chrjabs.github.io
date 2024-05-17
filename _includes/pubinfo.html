@@ -54,6 +54,11 @@
       {%- endif -%}
     {%- endfor %}
   </div>
+  {% if include.year %}
+    <div class="author">
+      {{entry.year}}
+    </div>
+  {% endif %}
 
   <!-- Journal/Book title and date -->
   {% assign thirdLine = "" %}

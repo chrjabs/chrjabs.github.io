@@ -1,0 +1,14 @@
+---
+layout: page
+---
+<div id="pubdetails">
+  <section id="header-content">
+    <h1>{{ page.title }}</h1>
+  </section>
+  <section class="bg"></section>
+  <section id="content">
+    {% include pubinfo.html entry=page.entry year="yes" %}
+    {% include hublinks.html citekey=page.entry.key %}
+    {% include hubabsbibtex.html citekey=page.entry.key %}
+  </section>
+</div>

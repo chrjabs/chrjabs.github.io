@@ -1,0 +1,31 @@
+{%- assign title = include.title -%}
+{%- assign citekey = include.citekey -%}
+{%- assign links = include.links -%}
+<section class="links">
+  {% if title %}
+  <h2>{{ title }}</h2>
+  {% else %}
+  <h2>Links</h2>
+  {% endif %}
+  {% if citekey %}
+    {% nocite citekey %}
+    {% capture page.links %}{{ links }}{% endcapture %}
+    {% bibliography --cited --clear --template pubhublinkstemplate %}
+  {% else %}
+    {% for link in links %}
+      <ol class="link-list">
+        <li>
+          {% if link.url contains '://' %}
+            <a href="{{ link.url | relative_url }}" target="_blank" role="button" title="{{ link.description }}">
+          {% endif %}
+              {% if link.icon %}
+                <i class="{{ link.icon }}"></i>{{ link.description }}
+              {% else %}
+                <i class="fas fa-link"></i>{{ link.description }}
+              {% endif %}
+            </a>
+        </li>
+      </ol>
+    {% endfor %}
+  {% endif %}
+</section>
