@@ -87,6 +87,9 @@
   {%- if entry.year -%}
     {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}{{ entry.year }}{%- endcapture -%}
   {%- endif -%}
+  {%- if entry.pubstate -%}
+    {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}({{ entry.pubstate }}){%- endcapture -%}
+  {%- endif -%}
   <div class="third-line">
     {{ thirdLine | strip }}
   </div>

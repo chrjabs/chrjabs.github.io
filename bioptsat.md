@@ -12,6 +12,9 @@ links:
   - url: http://doi.org/10.4230/LIPIcs.SAT.2022.12
     description: SAT'22 Conference Paper
     icon: "ai ai-doi"
+  - url: https://media.christophjabs.info/papers/JabsEtAl2024FromSingleObjective.pdf
+    description: Extended JAIR Paper
+    icon: "fas fa-file-pdf"
   - url: https://media.christophjabs.info/slides/JabsEtAl2022MaxSATBasedBi.pdf
     description: SAT'22 Slides
     icon: "fas fa-chalkboard-teacher"
@@ -33,4 +36,4 @@ links:
 
 {% reference JabsEtAl2024FromSingleObjective %}
 
-[<a href="{% details_link JabsEtAl2024FromSingleObjective % %}" class="details btn btn-sm z-depth-0" role="button">Details</a>]
+[<a href="{% details_link JabsEtAl2024FromSingleObjective %}" class="details btn btn-sm z-depth-0" role="button">Details</a>]
