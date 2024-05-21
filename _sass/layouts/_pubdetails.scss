@@ -38,6 +38,26 @@
             margin-top: 5px;
         }
 
+        .title  {
+            font-weight: bolder;
+        }
+        .author  {
+            a {
+                border-bottom: 1px dashed;
+                &:hover  {
+                    border-bottom-style: solid;
+                    text-decoration: none;
+                }
+            }
+            > em {
+                border-bottom: 1px solid;
+                font-style: normal;
+            }
+        }
+        .third-line {
+            font-style: italic;
+        }
+
         ol.link-list {
             list-style-type: none;
             padding: 0;
