@@ -3,7 +3,15 @@
     event: CPAIOR'24
     date: 05/2024
     comment: Presentation to go with the paper with the same name
+    slides: https://media.christophjabs.info/slides/JabsEtAl2024CoreBoostingSAT.pdf
     hub: cpaior24
+- presentation:
+    title: From Single-Objective to Multi-Objective MaxSAT Solving
+    event: CPAIOR'24
+    date: 05/2024
+    comment: Extended abstract and poster presentation about the BiOptSat algorithm
+    poster: https://media.christophjabs.info/posters/JabsEtAl2024FromSingleObjective.pdf
+    hub: bioptsat
 - presentation:
     title: Preprocessing for SAT-Based Multi-Objective Combinatorial Optimization
     event: CP'23
