@@ -59,7 +59,7 @@ References
   title       = {{MaxSAT}-Based Bi-Objective Boolean Optimization},
   year        = {2022},
   editor      = {Meel, Kuldeep S. Meel and Strichman, Ofer},
-  publisher   = {Schloss Dagstuhl --- Leibniz-Zentrum f{\"{u}}r Informatik},
+  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
   series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
   pages       = {12:1--12:23},
   volume      = {236},
@@ -91,7 +91,7 @@ References
   year        = {2023},
   editor      = {Yap, Roland H. C.},
   pages       = {18:1--18:19},
-  publisher   = {Schloss Dagstuhl --- Leibniz-Zentrum f{\"{u}}r Informatik},
+  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
   series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
   volume      = {280},
   abstract    = {Building on Boolean satisfiability (SAT) and  maximum satisfiability (MaxSAT) solving algorithms, several approaches to computing Pareto-optimal MaxSAT solutions under multiple objectives have been recently proposed.
@@ -137,9 +137,35 @@ References
   title       = {From Single-Objective to Bi-Objective Maximum Satisfiability Solving},
   journal     = {Journal of Artificial Intelligence Research},
   year        = {2024},
+  abstract    = {The declarative approach is key to efficiently finding optimal solutions to various types of NP-hard real-world  combinatorial optimization problems.
+                 Most work on practical declarative solvers---ranging from classical integer programming to finite-domain constraint optimization and maximum satisfiability (MaxSAT)---has focused on optimization under a single objective; fewer advances have been made towards efficient declarative techniques for multi-objective optimization problems.
+                 Motivated by significant recent advances in practical solvers for MaxSAT, in this work we develop BiOptSat, an exact declarative  approach for finding Pareto-optimal solutions to bi-objective optimization problems, with propositional logic as the underlying constraint language.
+                 BiOptSat can be viewed as an instantiation of the lexicographic method.
+                 The approach makes use of a single Boolean satisfiability solver that is incrementally employed throughout the entire search procedure, allowing  for finding a single Pareto-optimal solution, finding one representative solution for each non-dominated point, and enumerating all Pareto-optimal solutions.
+                 We detail several algorithmic instantiations of BiOptSat, each building on recent algorithms proposed for single-objective MaxSAT.
+                 We empirically evaluate the instantiations compared to recently-proposed alternative approaches to multi-objective MaxSAT solving on several real-world domains from the literature, showing the practical benefits of our approach.},
   code        = {https://bitbucket.org/coreo-group/bioptsat},
   pubstate    = {accepted for publication},
   pdf         = {https://media.christophjabs.info/papers/JabsEtAl2024FromSingleObjective.pdf},
   poster      = {https://media.christophjabs.info/posters/JabsEtAl2024FromSingleObjective.pdf},
+  bibtex_show = true
+}
+
+@inproceedings{IserJabs2024GlobalBenchmarkDatabase,
+  author      = {Markus Iser and
+                 Christoph Jabs},
+  title       = {Global Benchmark Database},
+  booktitle   = {27th International Conference on Theory and Applications of Satisfiability Testing ({SAT} 2024)},
+  year        = {2024},
+  editor      = {Jie-Hong Roland Jiang and Supratik Chakraborty},
+  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
+  series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
+  eprinttype  = {arXiv},
+  arxiv       = {2405.10045},
+  abstract    = {This paper presents Global Benchmark Database (GBD), a comprehensive suite of tools for provisioning and sustainably maintaining benchmark instances and their metadata.
+                 The availability of benchmark metadata is essential for many tasks in empirical research, e.g., for the data-driven compilation of benchmarks, the domain-specific analysis of runtime experiments, or the instance-specific selection of solvers.
+                 In this paper, we introduce the data model of GBD as well as its interfaces and provide examples of how to interact with them.
+                 We also demonstrate the integration of custom data sources and explain how to extend GBD with additional problem domains, instance formats and feature extractors.},
+  pubstate    = {accepted for publication},
   bibtex_show = true
 }
