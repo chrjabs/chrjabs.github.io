@@ -3,24 +3,95 @@
 References
 ==========
 
-@mastersthesis{Jabs2020RecurrentNeuralNet,
-  author      = {Christoph Jabs},
-  school      = {Reutlingen University},
-  title       = {A Recurrent Neural Net Approach to Activity Recognition},
-  year        = {2020},
-  thesis_type = {B. Eng. thesis},
-  abstract    = {A common approach in current research publication on analysing multimodal time-series data from inertial sensors is to use Convolutional Neural Networks (CNNs) to automatically learn patterns in the given data.
-                 The disadvantage when using CNNs in such an application on mobile devices is that they are highly computationally complex.
-                 Therefore, this thesis studies the question if Long-Short-Term-Memory (LSTM) networks, which are significantly less computationally complex, can be used as an alternative for such applications.
-                 
-                 Firstly the topic of Human Activity Recognition (HAR) and the used datasets Opportunity and mHealth are presented.
-                 Following that, inertial sensors and their functional principles are briefly touched on.
-                 In the main part of the work, the methods used, mainly LSTMs and CNNs are laid out.
-                 In our experiments, we mainly present an architecture study in which 380 LSTM variants were trained and tested on the Opportunity dataset.
-                 A modified training process called Relaxed Truth Training that speeds up the training process slightly is also presented and tested in our experiments.
-                 When comparing the best two LSTM networks from the architecture study to two different CNN architectures, we found superior performance from the LSTMs, mainly when looking at close to real life, continuous classification problems.
-                 These results were verified by testing the same architectures on the mHealth dataset.},
-  slides      = {https://media.christophjabs.info/slides/200129_Kolloquium_final.pdf},
+@article{JabsEtAl2024FromSingleObjective,
+  author      = {Christoph Jabs and Jeremias Berg and Andreas Niskanen and Matti J{\"{a}}rvisalo},
+  title       = {From Single-Objective to Bi-Objective Maximum Satisfiability Solving},
+  journal     = {Journal of Artificial Intelligence Research},
+  year        = {2024},
+  volume      = {80},
+  month       = aug,
+  pages       = {1223--1269},
+  publisher   = {AI Access Foundation},
+  url         = {http://dx.doi.org/10.1613/jair.1.15333},
+  doi         = {10.1613/jair.1.15333},
+  abstract    = {The declarative approach is key to efficiently finding optimal solutions to various types of NP-hard real-world  combinatorial optimization problems.
+                 Most work on practical declarative solvers---ranging from classical integer programming to finite-domain constraint optimization and maximum satisfiability (MaxSAT)---has focused on optimization under a single objective; fewer advances have been made towards efficient declarative techniques for multi-objective optimization problems.
+                 Motivated by significant recent advances in practical solvers for MaxSAT, in this work we develop BiOptSat, an exact declarative  approach for finding Pareto-optimal solutions to bi-objective optimization problems, with propositional logic as the underlying constraint language.
+                 BiOptSat can be viewed as an instantiation of the lexicographic method.
+                 The approach makes use of a single Boolean satisfiability solver that is incrementally employed throughout the entire search procedure, allowing  for finding a single Pareto-optimal solution, finding one representative solution for each non-dominated point, and enumerating all Pareto-optimal solutions.
+                 We detail several algorithmic instantiations of BiOptSat, each building on recent algorithms proposed for single-objective MaxSAT.
+                 We empirically evaluate the instantiations compared to recently-proposed alternative approaches to multi-objective MaxSAT solving on several real-world domains from the literature, showing the practical benefits of our approach.},
+  code        = {https://bitbucket.org/coreo-group/bioptsat},
+  pdf         = {https://media.christophjabs.info/papers/JabsEtAl2024FromSingleObjective.pdf},
+  poster      = {https://media.christophjabs.info/posters/JabsEtAl2024FromSingleObjective.pdf},
+  bibtex_show = true
+}
+
+@inproceedings{IserJabs2024GlobalBenchmarkDatabase,
+  author      = {Markus Iser and
+                 Christoph Jabs},
+  title       = {Global Benchmark Database},
+  booktitle   = {27th International Conference on Theory and Applications of Satisfiability Testing ({SAT} 2024)},
+  year        = {2024},
+  editor      = {Jie-Hong Roland Jiang and Supratik Chakraborty},
+  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
+  series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
+  eprinttype  = {arXiv},
+  arxiv       = {2405.10045},
+  abstract    = {This paper presents Global Benchmark Database (GBD), a comprehensive suite of tools for provisioning and sustainably maintaining benchmark instances and their metadata.
+                 The availability of benchmark metadata is essential for many tasks in empirical research, e.g., for the data-driven compilation of benchmarks, the domain-specific analysis of runtime experiments, or the instance-specific selection of solvers.
+                 In this paper, we introduce the data model of GBD as well as its interfaces and provide examples of how to interact with them.
+                 We also demonstrate the integration of custom data sources and explain how to extend GBD with additional problem domains, instance formats and feature extractors.},
+  pubstate    = {accepted for publication},
+  bibtex_show = true
+}
+
+@inproceedings{JabsEtAl2024CoreBoostingSAT,
+  author      = {Christoph Jabs and Jeremias Berg and Matti J{\"{a}}rvisalo},
+  booktitle   = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research---21st International Conference, {CPAIOR} 2024, Uppsala, Sweden, May 28--31, 2024, Proceedings, Part {II}},
+  title       = {Core Boosting in SAT-Based Multi-objective Optimization},
+  year        = {2024},
+  editor      = {Bistra Dilkina},
+  publisher   = {Springer},
+  series      = {Lecture Notes in Computer Science},
+  abstract    = {Maximum satisfiability (MaxSAT) constitutes today a successful approach to solving various types of real-world optimization problems through propositional encodings.
+                 Building on this success, various approaches have recently been proposed for finding Pareto-optimal solutions to multi-objective MaxSAT (MO-MaxSAT) instances, i.e., propositional encodings under multiple objective functions.
+                 In this work, we propose core boosting as a reformulation/preprocessing technique for improving the runtime performance of MO-MaxSAT solvers. 
+                 Core boosting in the multi-objective setting allows for shrinking the ranges of the multiple objectives at hand, which can be particularly beneficial for MO-MaxSAT relying on search that requires enforcing increasingly tighter objective bounds through propositional encodings.
+                 We show that core boosting is effective in improving the runtime performance of SAT-based MO-MaxSAT solvers with typically little overhead.
+                 },
+  pages       = {1--19},
+  volume      = {14743},
+  isbn        = {978-3-031-60599-4},
+  doi         = {10.1007/978-3-031-60599-4_1},
+  url         = {https://link.springer.com/chapter/10.1007/978-3-031-60599-4_1},
+  pdf         = {https://media.christophjabs.info/papers/JabsEtAl2024CoreBoostingSAT.pdf},
+  code        = {https://bitbucket.org/coreo-group/scuttle},
+  slides      = {https://media.christophjabs.info/slides/JabsEtAl2024CoreBoostingSAT.pdf},
+  bibtex_show = true
+}
+
+@inproceedings{JabsEtAl2023PreprocessingSATBased,
+  author      = {Jabs, Christoph and Berg, Jeremias and Ihalainen, Hannes and J{\"{a}}rvisalo, Matti},
+  booktitle   = {29th International Conference on Principles and Practices of Constraint Programming ({CP} 2023)},
+  title       = {Preprocessing in {SAT}-Based Multi-Objective Combinatorial Optimization},
+  year        = {2023},
+  editor      = {Yap, Roland H. C.},
+  pages       = {18:1--18:19},
+  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
+  series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
+  volume      = {280},
+  abstract    = {Building on Boolean satisfiability (SAT) and  maximum satisfiability (MaxSAT) solving algorithms, several approaches to computing Pareto-optimal MaxSAT solutions under multiple objectives have been recently proposed.
+                 However, preprocessing in (Max)SAT-based multi-objective optimization remains so-far unexplored.
+                 Generalizing clause redundancy to the multi-objective setting, we establish provably-correct liftings of MaxSAT preprocessing techniques for multi-objective MaxSAT in terms of computing Pareto-optimal solutions.
+                 We also establish preservation of Pareto-MCSes---the multi-objective lifting of minimal correction sets tightly connected to optimal MaxSAT solutions---as a distinguishing feature between different redundancy notions in the multi-objective setting.
+                 Furthermore, we provide a first empirical evaluation of the effect of preprocessing on instance sizes and multi-objective MaxSAT solvers.},
+  doi         = {10.4230/LIPIcs.CP.2023.18},
+  annote      = {Keywords: maximum satisfiability, multi-objective combinatorial optimization, preprocessing, redundancy},
+  pdf         = {https://media.christophjabs.info/papers/JabsEtAl2023PreprocessingSATBased.pdf},
+  slides      = {https://media.christophjabs.info/slides/JabsEtAl2023PreprocessingSATBased.pdf},
+  poster      = {https://media.christophjabs.info/posters/JabsEtAl2023PreprocessingSATBased.pdf},
+  code        = {https://bitbucket.org/coreo-group/mo-prepro},
   bibtex_show = true
 }
 
@@ -84,94 +155,23 @@ References
   bibtex_show = true
 }
 
-@inproceedings{JabsEtAl2023PreprocessingSATBased,
-  author      = {Jabs, Christoph and Berg, Jeremias and Ihalainen, Hannes and J{\"{a}}rvisalo, Matti},
-  booktitle   = {29th International Conference on Principles and Practices of Constraint Programming ({CP} 2023)},
-  title       = {Preprocessing in {SAT}-Based Multi-Objective Combinatorial Optimization},
-  year        = {2023},
-  editor      = {Yap, Roland H. C.},
-  pages       = {18:1--18:19},
-  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
-  series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
-  volume      = {280},
-  abstract    = {Building on Boolean satisfiability (SAT) and  maximum satisfiability (MaxSAT) solving algorithms, several approaches to computing Pareto-optimal MaxSAT solutions under multiple objectives have been recently proposed.
-                 However, preprocessing in (Max)SAT-based multi-objective optimization remains so-far unexplored.
-                 Generalizing clause redundancy to the multi-objective setting, we establish provably-correct liftings of MaxSAT preprocessing techniques for multi-objective MaxSAT in terms of computing Pareto-optimal solutions.
-                 We also establish preservation of Pareto-MCSes---the multi-objective lifting of minimal correction sets tightly connected to optimal MaxSAT solutions---as a distinguishing feature between different redundancy notions in the multi-objective setting.
-                 Furthermore, we provide a first empirical evaluation of the effect of preprocessing on instance sizes and multi-objective MaxSAT solvers.},
-  doi         = {10.4230/LIPIcs.CP.2023.18},
-  annote      = {Keywords: maximum satisfiability, multi-objective combinatorial optimization, preprocessing, redundancy},
-  pdf         = {https://media.christophjabs.info/papers/JabsEtAl2023PreprocessingSATBased.pdf},
-  slides      = {https://media.christophjabs.info/slides/JabsEtAl2023PreprocessingSATBased.pdf},
-  poster      = {https://media.christophjabs.info/posters/JabsEtAl2023PreprocessingSATBased.pdf},
-  code        = {https://bitbucket.org/coreo-group/mo-prepro},
-  bibtex_show = true
-}
-
-@inproceedings{JabsEtAl2024CoreBoostingSAT,
-  author      = {Christoph Jabs and Jeremias Berg and Matti J{\"{a}}rvisalo},
-  booktitle   = {Integration of Constraint Programming, Artificial Intelligence, and Operations Research---21st International Conference, {CPAIOR} 2024, Uppsala, Sweden, May 28--31, 2024, Proceedings, Part {II}},
-  title       = {Core Boosting in SAT-Based Multi-objective Optimization},
-  year        = {2024},
-  editor      = {Bistra Dilkina},
-  publisher   = {Springer},
-  series      = {Lecture Notes in Computer Science},
-  abstract    = {Maximum satisfiability (MaxSAT) constitutes today a successful approach to solving various types of real-world optimization problems through propositional encodings.
-                 Building on this success, various approaches have recently been proposed for finding Pareto-optimal solutions to multi-objective MaxSAT (MO-MaxSAT) instances, i.e., propositional encodings under multiple objective functions.
-                 In this work, we propose core boosting as a reformulation/preprocessing technique for improving the runtime performance of MO-MaxSAT solvers. 
-                 Core boosting in the multi-objective setting allows for shrinking the ranges of the multiple objectives at hand, which can be particularly beneficial for MO-MaxSAT relying on search that requires enforcing increasingly tighter objective bounds through propositional encodings.
-                 We show that core boosting is effective in improving the runtime performance of SAT-based MO-MaxSAT solvers with typically little overhead.
-                 },
-  pages       = {1--19},
-  volume      = {14743},
-  isbn        = {978-3-031-60599-4},
-  doi         = {10.1007/978-3-031-60599-4_1},
-  url         = {https://link.springer.com/chapter/10.1007/978-3-031-60599-4_1},
-  pdf         = {https://media.christophjabs.info/papers/JabsEtAl2024CoreBoostingSAT.pdf},
-  code        = {https://bitbucket.org/coreo-group/scuttle},
-  slides      = {https://media.christophjabs.info/slides/JabsEtAl2024CoreBoostingSAT.pdf},
-  bibtex_show = true
-}
-
-@article{JabsEtAl2024FromSingleObjective,
-  author      = {Christoph Jabs and Jeremias Berg and Andreas Niskanen and Matti J{\"{a}}rvisalo},
-  title       = {From Single-Objective to Bi-Objective Maximum Satisfiability Solving},
-  journal     = {Journal of Artificial Intelligence Research},
-  year        = {2024},
-  volume      = {80},
-  month       = aug,
-  pages       = {1223--1269},
-  publisher   = {AI Access Foundation},
-  url         = {http://dx.doi.org/10.1613/jair.1.15333},
-  doi         = {10.1613/jair.1.15333},
-  abstract    = {The declarative approach is key to efficiently finding optimal solutions to various types of NP-hard real-world  combinatorial optimization problems.
-                 Most work on practical declarative solvers---ranging from classical integer programming to finite-domain constraint optimization and maximum satisfiability (MaxSAT)---has focused on optimization under a single objective; fewer advances have been made towards efficient declarative techniques for multi-objective optimization problems.
-                 Motivated by significant recent advances in practical solvers for MaxSAT, in this work we develop BiOptSat, an exact declarative  approach for finding Pareto-optimal solutions to bi-objective optimization problems, with propositional logic as the underlying constraint language.
-                 BiOptSat can be viewed as an instantiation of the lexicographic method.
-                 The approach makes use of a single Boolean satisfiability solver that is incrementally employed throughout the entire search procedure, allowing  for finding a single Pareto-optimal solution, finding one representative solution for each non-dominated point, and enumerating all Pareto-optimal solutions.
-                 We detail several algorithmic instantiations of BiOptSat, each building on recent algorithms proposed for single-objective MaxSAT.
-                 We empirically evaluate the instantiations compared to recently-proposed alternative approaches to multi-objective MaxSAT solving on several real-world domains from the literature, showing the practical benefits of our approach.},
-  code        = {https://bitbucket.org/coreo-group/bioptsat},
-  pdf         = {https://media.christophjabs.info/papers/JabsEtAl2024FromSingleObjective.pdf},
-  poster      = {https://media.christophjabs.info/posters/JabsEtAl2024FromSingleObjective.pdf},
-  bibtex_show = true
-}
-
-@inproceedings{IserJabs2024GlobalBenchmarkDatabase,
-  author      = {Markus Iser and
-                 Christoph Jabs},
-  title       = {Global Benchmark Database},
-  booktitle   = {27th International Conference on Theory and Applications of Satisfiability Testing ({SAT} 2024)},
-  year        = {2024},
-  editor      = {Jie-Hong Roland Jiang and Supratik Chakraborty},
-  publisher   = {Schloss Dagstuhl---Leibniz-Zentrum f{\"{u}}r Informatik},
-  series      = {Leibniz International Proceedings in Informatics ({LIPIcs})},
-  eprinttype  = {arXiv},
-  arxiv       = {2405.10045},
-  abstract    = {This paper presents Global Benchmark Database (GBD), a comprehensive suite of tools for provisioning and sustainably maintaining benchmark instances and their metadata.
-                 The availability of benchmark metadata is essential for many tasks in empirical research, e.g., for the data-driven compilation of benchmarks, the domain-specific analysis of runtime experiments, or the instance-specific selection of solvers.
-                 In this paper, we introduce the data model of GBD as well as its interfaces and provide examples of how to interact with them.
-                 We also demonstrate the integration of custom data sources and explain how to extend GBD with additional problem domains, instance formats and feature extractors.},
-  pubstate    = {accepted for publication},
+@mastersthesis{Jabs2020RecurrentNeuralNet,
+  author      = {Christoph Jabs},
+  school      = {Reutlingen University},
+  title       = {A Recurrent Neural Net Approach to Activity Recognition},
+  year        = {2020},
+  thesis_type = {B. Eng. thesis},
+  abstract    = {A common approach in current research publication on analysing multimodal time-series data from inertial sensors is to use Convolutional Neural Networks (CNNs) to automatically learn patterns in the given data.
+                 The disadvantage when using CNNs in such an application on mobile devices is that they are highly computationally complex.
+                 Therefore, this thesis studies the question if Long-Short-Term-Memory (LSTM) networks, which are significantly less computationally complex, can be used as an alternative for such applications.
+                 
+                 Firstly the topic of Human Activity Recognition (HAR) and the used datasets Opportunity and mHealth are presented.
+                 Following that, inertial sensors and their functional principles are briefly touched on.
+                 In the main part of the work, the methods used, mainly LSTMs and CNNs are laid out.
+                 In our experiments, we mainly present an architecture study in which 380 LSTM variants were trained and tested on the Opportunity dataset.
+                 A modified training process called Relaxed Truth Training that speeds up the training process slightly is also presented and tested in our experiments.
+                 When comparing the best two LSTM networks from the architecture study to two different CNN architectures, we found superior performance from the LSTMs, mainly when looking at close to real life, continuous classification problems.
+                 These results were verified by testing the same architectures on the mHealth dataset.},
+  slides      = {https://media.christophjabs.info/slides/200129_Kolloquium_final.pdf},
   bibtex_show = true
 }
