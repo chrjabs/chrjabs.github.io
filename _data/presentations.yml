@@ -1,4 +1,10 @@
 - presentation:
+    title: Multi-Objective MaxSAT Solving
+    event: Research Visist at Vrije Universiteit Brussels
+    date: 08/2024
+    comment: Overviewing my PhD project in general
+    slides: https://media.christophjabs.info/slides/bru24multiopt.pdf
+- presentation:
     title: Core Boosting in SAT-Based Multi-Objective Optimization
     event: CPAIOR'24
     date: 05/2024
