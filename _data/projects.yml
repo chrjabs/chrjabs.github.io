@@ -23,10 +23,24 @@
     image:
       path: 'bioptsat.png'
       image: 'A illustration of the search progression of BiOptSat'
-    date: 09/2021 &ndash; Developing
+    date: 09/2021 &ndash; 08/2024
     title: BiOptSat
     summary: MaxSAT-base bi-objective Boolean optimization
     description: An algorithm and implementation to find Pareto-optimal solutions to NP-hard bi-objective combinatorial optimization problems encoded in propositional logic.
+
+- project:
+    print: True
+    modal: True
+    url: https://bitbucket.org/coreo-group/pbcomp24-cg
+    date: 03/2024 &ndash; 08/2024
+    title: PB-OLL-RS & Mixed-Bag
+    summary: Pseudo-Boolean optimization solvers in PB Competition 2024
+    description: Pseudo-boolean optimizaation solvers winning (Mixed-Bag) Pseudo-Boolean Competition 2024
+    contents:
+        - title: PB-OLL-RS
+          description: Pseudo-Boolean OLL on top of RoundingSat is a reimplementation of the core-guided optimization procedure in RoundingSat.
+        - title: Mixed-Bag
+          description: Mixed-Bag combines PB-OLL-RS with the preprocessor PaPILO and integer programming solver SCIP.
 
 - project :
     print: True
