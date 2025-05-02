@@ -1,4 +1,11 @@
 - presentation:
+    title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
+    event: TACAS'25
+    date: 05/2025
+    comment: Presentation to go with the paper with the same name
+    slides: https://media.christophjabs.info/slides/JabsEtAl2025CertifyingParetoOptimality.pdf
+    hub: tacas25
+- presentation:
     title: Multi-Objective MaxSAT Solving
     event: Research Visist at Vrije Universiteit Brussels
     date: 08/2024
