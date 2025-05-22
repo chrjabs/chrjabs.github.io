@@ -21,3 +21,7 @@
 "Bogaerts":
   - firstname: ["Bart", "B."]
     url: https://www.bartbogaerts.eu/
+
+"Schreiber":
+  - firstname: ["Dominik", "D."]
+    url: https://www.dominikschreiber.de/

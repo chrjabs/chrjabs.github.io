@@ -3,6 +3,34 @@
 References
 ==========
 
+@misc{Jabs2025RustsatLibrarySat,
+  title       = {{RustSAT}: {A} Library For {SAT} Solving in Rust},
+  author      = {Jabs, Christoph},
+  year        = {2025},
+  eprinttype  = {arXiv},
+  arxiv       = {2505.15221},
+  abstract    = {State-of-the-art Boolean satisfiability (SAT) solvers constitute a practical and competitive approach for solving various real-world problems.
+                 To encourage their widespread adoption, the relatively high barrier of entry following from the low level syntax of SAT and the expert knowledge required to achieve tight integration with SAT solvers should be further reduced.
+                 We present RustSAT, a library with the aim of making SAT solving technology readily available in the Rust programming language.
+                 RustSAT provides functionality for helping with generating (Max)SAT instances, writing them to, or reading them from files.
+                 Furthermore, RustSAT includes interfaces to various state-of-the-art SAT solvers available with a unified Rust API.
+                 Lastly, RustSAT implements several encodings for higher level constraints (at-most-one, cardinality, and pseudo-Boolean), which are also available via a C and Python API.},
+  bibtex_show = true
+}
+
+@inproceedings{SchreiberEtAl2025,
+  title       = {From Scalable {SAT} to {MaxSAT}: {Massively} Parallel Solution Improving Search},
+  author      = {Schreiber, Dominik and Jabs, Christoph and Berg, Jeremias},
+  year        = {2025},
+  booktitle   = {Eighteenth International Symposium on Combinatorial Search, {SoCS} 2025, Glasgow, {UK}, August 12--15, 2025},
+  editor      = {Likhachev, Maxim and Rudov\'a, Hana and Scala, Enrico},
+  abstract    = {Maximum Satisfiability (MaxSAT) is an essential framework for combinatorial optimization at the core of automated reasoning.
+                 However, to date, no notable parallelizations with convincing scaling behaviour exist.
+                 We suggest to exploit and transfer recent advances in massively parallel SAT solving to perform scalable solution improving search (SIS) for MaxSAT solving.
+                 Building upon the distributed job scheduling and SAT solving platform Mallob, we present the first MaxSAT solver that scales to hundreds of cores through a careful combination of parallel and distributed incremental SAT solving, task parallelism and flexible load balancing, and clause sharing within and across SAT solving tasks.
+                 Experiments on up to 768 cores (16 nodes) show that our approach clearly outscales state-of-the-art SIS-based MaxSAT solvers, marking a new baseline for parallel MaxSAT solving.},
+}
+
 @inproceedings{JabsEtAl2025CertifyingParetoOptimality,
   author      = {Christoph Jabs and Jeremias Berg and Bart Bogaerts and Matti Järvisalo},
   title       = {Certifying Pareto Optimality in Multi-objective Maximum Satisfiability}, 
