@@ -5,13 +5,13 @@
     date: 07/2022 &ndash; Developing
     title: RustSAT
     image:
-      path: "https://github.com/chrjabs/rustsat/blob/main/docs/architecture.png"
+      path: "https://raw.githubusercontent.com/chrjabs/rustsat/refs/heads/main/docs/architecture.png"
       alt: "RustSAT library architecture diagram"
     summary: SAT-solving library in Rust.
     description: This library aims to provide implementations of elements commonly used in the development on software in the area of satisfiability solving. The focus of the library is to provide as much ease of use without giving up on performance.
     contents:
         - title: RustSAT System Description Paper
-          description: A system description paper for RustSAT was published at SAT'2025. You can <a href="bibliography/Jabs2025RustsatLibrarySat.html">find the details here</a>.
+          description: A system description paper for RustSAT was published at SAT'2025. You can [_find the details here_](bibliography/Jabs2025RustsatLibrarySat.html).
 
 - project:
     print: True
