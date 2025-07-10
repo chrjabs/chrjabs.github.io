@@ -1,9 +1,10 @@
 ---
 layout: page
 ---
-<div id="presentations">
+<div id="presentations-teaching">
   <section class="bg"></section>
   <h1 class="title">{{ page.title }}</h1>
+  <h2>Presentations</h2>
   <ol class="presentations-list">
     {% for _ in site.data.presentations %}
       {% assign presentation = _.presentation %}
@@ -32,6 +33,17 @@ layout: page
             [<a href="{{ presentation.hub | relative_url }}" class="btn btn-sm z-depth-0" role="button">All Information</a>]
           {%- endif %}
         </div>
+      </li>
+    {% endfor %}
+  </ol>
+  <hr>
+  <h2>Teaching</h2>
+  <ol class="teaching-list">
+    {% for _ in site.data.teaching %}
+      {% assign teaching = _.teaching %}
+      <li>
+        <em class="title">{{ teaching.title }}</em> <em class="date">({{ teaching.date }})</em>
+        <p class="comment">{{ teaching.comment | markdownify }}</p>
       </li>
     {% endfor %}
   </ol>

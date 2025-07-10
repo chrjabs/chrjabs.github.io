@@ -1,8 +1,23 @@
 - presentation:
+    title: Engineering and Evaluating Multi-objective Pseudo-Boolean Optimizers
+    event: JELIA'25
+    date: 09/2025
+    comment: Presentation to go with the paper with the same title
+- presentation:
+    title: "RustSAT: A Library For SAT Solving in Rust"
+    event: SAT'25
+    date: 08/2025
+    comment: Presentation to go with the paper with the same title
+- presentation:
+    title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
+    event: PoS'25
+    date: 08/2025
+    comment: Presentation of the paper published at TACAS at the Pragmatics of SAT workshop
+- presentation:
     title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
     event: TACAS'25
     date: 05/2025
-    comment: Presentation to go with the paper with the same name
+    comment: Presentation to go with the paper with the same title
     slides: https://media.christophjabs.info/slides/JabsEtAl2025CertifyingParetoOptimality.pdf
     hub: tacas25
 - presentation:
@@ -15,7 +30,7 @@
     title: Core Boosting in SAT-Based Multi-Objective Optimization
     event: CPAIOR'24
     date: 05/2024
-    comment: Presentation to go with the paper with the same name
+    comment: Presentation to go with the paper with the same title
     slides: https://media.christophjabs.info/slides/JabsEtAl2024CoreBoostingSAT.pdf
     hub: cpaior24
 - presentation:
@@ -29,7 +44,7 @@
     title: Preprocessing for SAT-Based Multi-Objective Combinatorial Optimization
     event: CP'23
     date: 08/2023
-    comment: Presentation to go with the paper with the same name
+    comment: Presentation to go with the paper with the same title
     slides: https://media.christophjabs.info/slides/JabsEtAl2023PreprocessingSATBased.pdf
     poster: https://media.christophjabs.info/posters/JabsEtAl2023PreprocessingSATBased.pdf
     hub: cp23
@@ -45,6 +60,6 @@
     title: MaxSAT-Based Bi-Objective Boolean Optimization
     event: SAT'22 @ FLoC '22
     date: 08/2022
-    comment: Presentation to go with the paper with the same name
+    comment: Presentation to go with the paper with the same title
     slides: https://media.christophjabs.info/slides/Jabs2022MaximumSatisfiabilityBased.pdf
     hub: sat22

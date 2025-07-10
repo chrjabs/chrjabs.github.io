@@ -23,6 +23,9 @@
           ruby
           gnumake
         ];
+        shellHook = ''
+          bundle install
+        '';
       };
     });
     formatter = forEachSystem (pkgs: pkgs.alejandra);

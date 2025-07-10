@@ -1,6 +1,6 @@
 @use "../base/variable" as vars;
 
-#presentations {
+#presentations-teaching {
     @extend %page-padding;
     .bg{
         content: "";
@@ -16,6 +16,10 @@
         color:#fff;
         margin-bottom: 30px;
     }
+    h2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     ol.presentations-list{
         list-style-type: none;
         li {
@@ -26,6 +30,21 @@
                 font-style: normal;
             }
             .event {
+            }
+            .date {
+                font-style: normal;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    ol.teaching-list{
+        list-style-type: none;
+        li {
+            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
+            .title {
+                font-weight: bolder;
+                font-style: normal;
             }
             .date {
                 font-style: normal;

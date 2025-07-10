@@ -58,7 +58,7 @@ scholar:
   last_name: Jabs
   first_name: [Christoph, C.]
   sort_by: year,month
-  order: descending,ascending
+  order: descending,descending
   details_layout: pubdetailstemplate.html
   details_link:
 

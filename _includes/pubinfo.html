@@ -81,7 +81,7 @@
   {%- if entry.pages -%}
     {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}pp. {{ entry.pages }}{%- endcapture -%}
   {%- endif -%}
-  {%- if entry.month -%}
+  {%- if entry.month and entry.type == "article" -%}
     {%- capture thirdLine -%}{{ thirdLine }}{% if thirdLine != blank %}, {% endif %}{{ entry.month | capitalize }}{%- endcapture -%}
   {%- endif -%}
   {%- if entry.year -%}
@@ -93,4 +93,10 @@
   <div class="third-line">
     {{ thirdLine | strip }}
   </div>
+
+  {% if entry.note %}
+  <div class="note">
+    {{ entry.note | markdownify | remove: '<p>' | remove: '</p>' }}
+  </div>
+  {% endif %}
 {%- endif %}
