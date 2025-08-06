@@ -3,16 +3,19 @@
     event: JELIA'25
     date: 09/2025
     comment: Presentation to go with the paper with the same title
+    hub: jelia25
 - presentation:
     title: "RustSAT: A Library For SAT Solving in Rust"
     event: SAT'25
     date: 08/2025
     comment: Presentation to go with the paper with the same title
+    hub: sat25
 - presentation:
     title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
     event: PoS'25
     date: 08/2025
     comment: Presentation of the paper published at TACAS at the Pragmatics of SAT workshop
+    hub: pos25
 - presentation:
     title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
     event: TACAS'25
