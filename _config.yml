@@ -62,6 +62,12 @@ scholar:
   details_layout: pubdetailstemplate.html
   details_link:
 
+# Collection of hub pages
+collections:
+  hubs:
+    output: true
+    permalink: /:name
+
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
 academicons:
