@@ -1,21 +1,31 @@
 - presentation:
+    title: "Multi-Objective Optimization: A Pseudo-Boolean Perspective"
+    event: "Dagstuhl Seminar: Interactions in Constraint Optimization"
+    date: 09/2025
+    comment: Presentation about our JELIA'25 paper and multi-objective optimization in general
+    hub: jelia25
+    slides: https://media.christophjabs.info/slides/JabsEtAl2025EngineeringEvaluatingMultiObjective.pdf
+- presentation:
     title: Engineering and Evaluating Multi-objective Pseudo-Boolean Optimizers
     event: JELIA'25
     date: 09/2025
     comment: Presentation to go with the paper with the same title
     hub: jelia25
+    slides: https://media.christophjabs.info/slides/JabsEtAl2025EngineeringEvaluatingMultiObjective.pdf
 - presentation:
     title: "RustSAT: A Library For SAT Solving in Rust"
     event: SAT'25
     date: 08/2025
     comment: Presentation to go with the paper with the same title
     hub: sat25
+    slides: https://media.christophjabs.info/slides/https://media.christophjabs.info/slides/Jabs2025RustsatLibrarySat.pdf
 - presentation:
     title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
     event: PoS'25
     date: 08/2025
     comment: Presentation of the paper published at TACAS at the Pragmatics of SAT workshop
     hub: pos25
+    slides: https://media.christophjabs.info/slides/pos25moproofs.pdf
 - presentation:
     title: Certifying Pareto Optimality in Multi-objective Maximum Satisfiability
     event: TACAS'25
