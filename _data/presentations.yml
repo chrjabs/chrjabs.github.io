@@ -4,7 +4,7 @@
     date: 09/2025
     comment: Presentation about our JELIA'25 paper and multi-objective optimization in general
     hub: jelia25
-    slides: https://media.christophjabs.info/slides/JabsEtAl2025EngineeringEvaluatingMultiObjective.pdf
+    slides: https://media.christophjabs.info/slides/dagstuhl25mopbo.pdf
 - presentation:
     title: Engineering and Evaluating Multi-objective Pseudo-Boolean Optimizers
     event: JELIA'25
