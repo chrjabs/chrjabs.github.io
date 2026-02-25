@@ -1,4 +1,11 @@
 - presentation:
+    title: "Multi-objective Maximum Satisfiability by Single-objective Implicit Hitting Set Optimization"
+    event: CPAIOR'26
+    date: 05/2026
+    comment: Presentation to go with the paper with the same title
+    slides: https://media.christophjabs.info/slides/JabsEtAl2026MultiObjectiveMaximumSatisfiability.pdf
+    hub: cpaior26
+- presentation:
     title: "Multi-Objective Optimization: A Pseudo-Boolean Perspective"
     event: "Dagstuhl Seminar: Interactions in Constraint Optimization"
     date: 09/2025
