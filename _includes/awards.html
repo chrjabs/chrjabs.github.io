@@ -2,7 +2,7 @@
   <p class="title">{{ site.theme_settings.awards_title }}</p>
   <ul class="awards-list">
     {% for award in site.data.profile.awards %}
-    <li class="award">{{ award }}</li>
+    <li class="award">{{ award | markdownify | remove: '<p>' | remove: '</p>' }}</li>
     {% endfor %}
   </ul>
 {% endif %}
