@@ -1,4 +1,11 @@
 - presentation:
+    title: "Scuttle: A System for Multi-Objective MaxSAT"
+    event: SAT'26 @ FLoC'26
+    date: 07/2026
+    comment: Presentation to go with the paper with the same title
+    slides: https://media.christophjabs.info/slides/JabsEtAl2026ScuttleMultiObjective.pdf
+    hub: sat26
+- presentation:
     title: "Multi-objective Maximum Satisfiability by Single-objective Implicit Hitting Set Optimization"
     event: CPAIOR'26
     date: 05/2026
