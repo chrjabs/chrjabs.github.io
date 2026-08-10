@@ -79,6 +79,14 @@
 </li>
 {% endif %}
 
+{% if social.codeberg %}
+<li>
+  <a href="https://codeberg.org/{{ social.codeberg }}" target="_blank" title="Codeberg">
+    <i class="fab fa-codeberg"></i>
+  </a>
+</li>
+{% endif %}
+
 {% if social.bitbucket %}
 <li>
   <a href="https://bitbucket.org/{{ social.bitbucket }}" target="_blank" title="Bitbucket">
@@ -129,7 +137,7 @@
 
 {% if social.instagram %}
 <li>
-  <a href="http://instagram.com/{{ social.instagram }}" target="_blank" title="Instagram">
+  <a href="https://instagram.com/{{ social.instagram }}" target="_blank" title="Instagram">
     <i class="fab fa-instagram"></i>
   </a>
 </li>

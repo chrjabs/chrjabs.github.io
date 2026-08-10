@@ -50,7 +50,7 @@
 {%- endif %}
 {%- if entry.doi %}
   <li>
-    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank" role="button" title="DOI">
+    <a href="{{ entry.doi | prepend: 'https://doi.org/' }}" target="_blank" role="button" title="DOI">
       <i class="ai ai-doi"></i>DOI
     </a>
   </li>
@@ -64,7 +64,7 @@
 {%- endif %}
 {%- if entry.arxiv %}
   <li>
-    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" role="button" title="arXiv">
+    <a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" role="button" title="arXiv">
       <i class="ai ai-arxiv"></i>arXiv
     </a>
   </li>
