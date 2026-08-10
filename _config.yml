@@ -78,3 +78,6 @@ fontawesome:
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+
+# Exclude files that are irrelevant to the webpage
+exclude: ["flake.nix", "flake.lock", "README.md", "LICENSE.txt", "grape-theme.gemspec"]
