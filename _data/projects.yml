@@ -10,8 +10,8 @@
     summary: SAT-solving library in Rust.
     description: This library aims to provide implementations of elements commonly used in the development on software in the area of satisfiability solving. The focus of the library is to provide as much ease of use without giving up on performance.
     contents:
-        - title: RustSAT System Description Paper
-          description: A system description paper for RustSAT was published at SAT'2025. You can [_find the details here_](bibliography/Jabs2025RustsatLibrarySat.html).
+      - title: RustSAT System Description Paper
+        description: A system description paper for RustSAT was published at SAT'2025. You can [_find the details here_](bibliography/Jabs2025RustsatLibrarySat.html).
 
 - project:
     print: True
@@ -43,12 +43,12 @@
     summary: Pseudo-Boolean optimization solvers in PB Competition 2024
     description: Pseudo-boolean optimizaation solvers winning (Mixed-Bag) Pseudo-Boolean Competition 2024
     contents:
-        - title: PB-OLL-RS
-          description: Pseudo-Boolean OLL on top of RoundingSat is a reimplementation of the core-guided optimization procedure in RoundingSat.
-        - title: Mixed-Bag
-          description: Mixed-Bag combines PB-OLL-RS with the preprocessor PaPILO and integer programming solver SCIP.
+      - title: PB-OLL-RS
+        description: Pseudo-Boolean OLL on top of RoundingSat is a reimplementation of the core-guided optimization procedure in RoundingSat.
+      - title: Mixed-Bag
+        description: Mixed-Bag combines PB-OLL-RS with the preprocessor PaPILO and integer programming solver SCIP.
 
-- project :
+- project:
     print: True
     modal: True
     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
@@ -60,23 +60,18 @@
     summary: Academic portfolio jekyll theme.
     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
     contents:
-        - title: 1. Portfolio Page
-          image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
-          image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
-          image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+      - title: 1. Portfolio Page
+        image:
+          path: portfolio.png
+          alt: "A screenshot of the portfolio page"
+        description: <li>Concise portfolio page</li> <li>Recent publications</li> <li>Projects</li>
+      - title: 2. Optional Blog Functionality
+        image:
+          path: home.png
+          alt: "A screenshot of the blog page"
+        description: <li>Responsive Layout</li> <li>Tags</li> <li>Pagination</li>
+      - title: 3. Tags Page
+        image:
+          path: tags.png
+          alt: "A screenshot of the tags page"
+        description: <li>Responsive Layout</li> <li>Tags</li>

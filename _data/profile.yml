@@ -24,7 +24,7 @@ interests:
   - Declarative problem solving
   - Explainable artificial intelligence
   - Fair data representation
-skills: 
+skills:
   - skill: Rust
     value: 85
   - skill: C++
@@ -39,13 +39,13 @@ social:
   email: christoph.jabs@helsinki.fi
   orcid: 0000-0003-3532-696X
   scholar: f5m-HaQAAAAJ
-  publons: 
-  research_gate: 
+  publons:
+  research_gate:
   dblp: https://dblp.org/pid/325/2848.html # Full URL
   semantic_scholar: https://www.semanticscholar.org/author/Christoph-Jabs/2174214764 # Full URL
-  linkedin:  # Full URL 
+  linkedin: # Full URL 
   github: chrjabs
-  gitlab: 
+  gitlab:
   codeberg: chrjabs
   bitbucket:
   google_plus:
