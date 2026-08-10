@@ -24,7 +24,7 @@
     {% if entry.slides contains '://' -%}
       <a href="{{ entry.slides }}" target="_blank" role="button" title="Slides">
     {%- else -%}
-      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" taget="_blank" role="button" title="Slides">
+      <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank" role="button" title="Slides">
     {%- endif %}
         <i class="fas fa-chalkboard-teacher"></i>Slides
       </a>
