@@ -5,10 +5,8 @@
         bundix
         ruby
         gnumake
+        dodeca
       ];
-      shellHook = ''
-        bundle install
-      '';
     };
   };
 }

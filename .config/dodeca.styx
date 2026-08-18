@@ -1,0 +1,13 @@
+source {
+    content content
+}
+
+site {
+    output public
+}
+
+stable_assets (
+    favicon.ico
+    ssh.pub
+    pgp.asc
+)

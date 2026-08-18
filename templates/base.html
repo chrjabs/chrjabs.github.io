@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ config.title }}{% endblock %}</title>
+    {% if config.description %}<meta name="description" content="{{ config.description }}">{% endif %}
+    <link rel="stylesheet" href="{{ get_url(path='main.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+          {% block nav %}
+            <ul>
+                {% if section.permalink == "/" %}
+                <li class="current"><a href="/">Home</a></li>
+                {% else %}
+                <li><a href="/">Home</a></li>
+                {% endif %}
+                {% for sub in root.subsections %}
+                {% if section.permalink == sub.permalink %}
+                <li class="current"><a href="{{ sub.permalink }}">{{ sub.title }}</a></li>
+                {% else %}
+                <li><a href="{{ sub.permalink }}">{{ sub.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+                <li><a href="/curriculum-vitae/cv_jabs_christoph.pdf">Curriculum Vitae</a></li>
+            </ul>
+          {% endblock %}
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

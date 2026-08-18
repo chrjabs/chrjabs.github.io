@@ -8,6 +8,9 @@
 
     import-tree.url = "github:vic/import-tree";
 
+    nur-packages.url = "github:chrjabs/nur-packages";
+    nur-packages.inputs.nixpkgs.follows = "nixpkgs";
+
     treefmt-nix.url = "github:numtide/treefmt-nix";
     treefmt-nix.inputs.nixpkgs.follows = "nixpkgs";
   };
