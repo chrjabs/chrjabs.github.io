@@ -1,4 +1,17 @@
 - presentation:
+    title: "Advances to SAT-Based Multi-Objective Constraint Optimization"
+    event: PhD defence
+    date: 09/2026
+    comment: Lectio Praecursoria at my PhD defence.
+    slides: https://media.christophjabs.info/slides/lectio26thesis.pdf
+- presentation:
+    title: "Certifying Pareto Optimality in Multi-Objective Maximum Satisfiability"
+    event: HALT'26
+    date: 08/2026
+    comment: Presentation at Helsinki Algorithm and Theory Days 2026 about our TACAS'25 paper on multi-objective proof logging.
+    slides: https://media.christophjabs.info/slides/halt26moproofs.pdf
+    hub: halt26
+- presentation:
     title: "Scuttle: A System for Multi-Objective MaxSAT"
     event: SAT'26 @ FLoC'26
     date: 07/2026
