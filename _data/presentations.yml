@@ -4,6 +4,8 @@
     date: 09/2026
     comment: Lectio Praecursoria at my PhD defence.
     slides: https://media.christophjabs.info/slides/lectio26thesis.pdf
+    recording: https://www.helsinki.fi/fi/unitube/video/38999f0a-40c8-44d5-8c84-bfc13dd33e15
+    hub: defence
 - presentation:
     title: "Certifying Pareto Optimality in Multi-Objective Maximum Satisfiability"
     event: HALT'26

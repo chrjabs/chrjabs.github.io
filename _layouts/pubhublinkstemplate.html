@@ -55,6 +55,13 @@
     </a>
   </li>
 {%- endif %}
+{%- if entry.handle %}
+  <li>
+    <a href="{{ entry.handle | prepend: 'https://hdl.handle.net/' }}" target="_blank" role="button" title="Handle">
+      <i class="fas fa-link"></i>Permanent link
+    </a>
+  </li>
+{%- endif %}
 {%- if entry.html %}
   <li>
     <a href="{{ entry.html }}" target="_blank" role="button" title="HTML">
