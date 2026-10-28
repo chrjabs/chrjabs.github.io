@@ -22,6 +22,7 @@ layout: page
         <h2 class="username">{{ profile.username }}</h2>
         <div class="description">{{ profile.description | markdownify }}</div>
 
+        {% if profile.room %}<div id="room">Room: {{ profile.room }}</div>{% endif %}
         <ul id="icons">
           {% include social.html %}
         </ul>
